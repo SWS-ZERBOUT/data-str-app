@@ -98,7 +98,7 @@ def data_res():
     with column3:
         st.write(' ')
      # get routimize image from github
-    image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/main/images/routimize.png'
+    image_url = 'https://github.com/SWS-ZERBOUT/data-str-app/blob/main/images/routimize.png?raw=true'
     image_data = fetch_image_from_github(image_url, token)
     column1, column2, column3= st.columns(3)
     with column1:
