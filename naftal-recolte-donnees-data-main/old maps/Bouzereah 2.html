@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20ccb56c62f123cc1cb12cb67ab71c95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_20ccb56c62f123cc1cb12cb67ab71c95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_20ccb56c62f123cc1cb12cb67ab71c95 = L.map(
+                "map_20ccb56c62f123cc1cb12cb67ab71c95",
+                {
+                    center: [36.764062, 2.926582],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b74383ca813fa3c29245af3141c41e7d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b74383ca813fa3c29245af3141c41e7d.addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var marker_4fa2abcefbab65edeb186d56a60f32b9 = L.marker(
+                [36.764062, 2.926582],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_25d7104fa692188e7c6ab9e6eb541c19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fa2abcefbab65edeb186d56a60f32b9.setIcon(icon_25d7104fa692188e7c6ab9e6eb541c19);
+        
+    
+            marker_4fa2abcefbab65edeb186d56a60f32b9.bindTooltip(
+                `<div>
+                     Direction Générale Naftal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1487129624859994bb70d6c0477408a = L.marker(
+                [36.795399, 3.0371997],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_9dce895a3a2e7e994a31be31b3cef5b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1487129624859994bb70d6c0477408a.setIcon(icon_9dce895a3a2e7e994a31be31b3cef5b7);
+        
+    
+            marker_c1487129624859994bb70d6c0477408a.bindTooltip(
+                `<div>
+                     Celeste
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_716fdd7e27c6b636037a55780370d0d5 = L.marker(
+                [36.7955885, 3.0357825],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_8a602ceb6a7aaee6f6238efb2a3201ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_716fdd7e27c6b636037a55780370d0d5.setIcon(icon_8a602ceb6a7aaee6f6238efb2a3201ec);
+        
+    
+            marker_716fdd7e27c6b636037a55780370d0d5.bindTooltip(
+                `<div>
+                     Chemin sidi bennour
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdcbf6bc5a512915fa39ad08c712e0ae = L.marker(
+                [36.7953982, 3.0345101],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_f654f076f0a079a7b0980d52d1159036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bdcbf6bc5a512915fa39ad08c712e0ae.setIcon(icon_f654f076f0a079a7b0980d52d1159036);
+        
+    
+            marker_bdcbf6bc5a512915fa39ad08c712e0ae.bindTooltip(
+                `<div>
+                     Chemin sidi bennour 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebd63095602af7a28fce3e0bc917b86f = L.marker(
+                [36.7899701, 3.0166862],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_542de897ac5b8e6ac4d39fe7daee6b80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebd63095602af7a28fce3e0bc917b86f.setIcon(icon_542de897ac5b8e6ac4d39fe7daee6b80);
+        
+    
+            marker_ebd63095602af7a28fce3e0bc917b86f.bindTooltip(
+                `<div>
+                     Bouzareah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fd65fdd9ddc4026c318076aec08a5d9 = L.marker(
+                [36.7848437, 3.013143],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_21127972229c1f8242ade222b1231aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8fd65fdd9ddc4026c318076aec08a5d9.setIcon(icon_21127972229c1f8242ade222b1231aba);
+        
+    
+            marker_8fd65fdd9ddc4026c318076aec08a5d9.bindTooltip(
+                `<div>
+                     Société générale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b7183947ef615d1b5d276a60f094db0 = L.marker(
+                [36.7798305, 3.0102797],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_3fabc5f7c91c1eb5fd8248c951350479 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b7183947ef615d1b5d276a60f094db0.setIcon(icon_3fabc5f7c91c1eb5fd8248c951350479);
+        
+    
+            marker_7b7183947ef615d1b5d276a60f094db0.bindTooltip(
+                `<div>
+                     Air de France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09e7bf2f3b3464e3646092f142287107 = L.marker(
+                [36.7794342, 3.0038971],
+                {}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+    
+            var icon_d1894621eb95ecbae6ba0719fba5638a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_09e7bf2f3b3464e3646092f142287107.setIcon(icon_d1894621eb95ecbae6ba0719fba5638a);
+        
+    
+            marker_09e7bf2f3b3464e3646092f142287107.bindTooltip(
+                `<div>
+                     Rue Djamel Eddine El afghani
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f3ca6a578f79c2aaa67f495d2a576ddd = L.polyline(
+                [[36.7954, 3.0372], [36.79539, 3.03721], [36.79523, 3.03698], [36.79518, 3.03685], [36.7953, 3.03671], [36.79561, 3.0364], [36.7957, 3.03628], [36.7958, 3.03593], [36.79558, 3.03581], [36.79537, 3.0357], [36.79531, 3.03559], [36.79528, 3.03548], [36.79527, 3.03535], [36.7953, 3.03517], [36.7954, 3.03457], [36.79541, 3.03451], [36.79545, 3.03418], [36.7955, 3.03369], [36.79557, 3.03315], [36.79564, 3.03279], [36.79565, 3.03265], [36.79574, 3.03236], [36.79583, 3.03222], [36.7961, 3.03198], [36.79622, 3.03185], [36.79631, 3.03161], [36.79635, 3.03143], [36.79638, 3.0312], [36.79636, 3.03085], [36.79627, 3.03055], [36.7961, 3.03015], [36.79593, 3.02979], [36.79545, 3.02907], [36.79526, 3.02881], [36.79471, 3.02813], [36.79439, 3.02769], [36.79417, 3.0273], [36.79412, 3.02709], [36.7941, 3.02625], [36.79393, 3.02564], [36.79386, 3.02545], [36.79376, 3.02523], [36.79359, 3.02498], [36.79301, 3.02442], [36.79292, 3.02431], [36.79289, 3.02423], [36.79281, 3.02366], [36.79275, 3.02337], [36.79263, 3.02315], [36.79208, 3.02256], [36.79195, 3.02237], [36.79177, 3.02197], [36.79168, 3.02155], [36.79165, 3.02134], [36.79164, 3.0211], [36.79162, 3.02098], [36.79158, 3.0208], [36.79151, 3.02061], [36.79106, 3.01983], [36.79093, 3.01956], [36.79083, 3.01936], [36.79072, 3.019], [36.79054, 3.01857], [36.79051, 3.01849], [36.79048, 3.01824], [36.79046, 3.01765], [36.79043, 3.0175], [36.79038, 3.01739], [36.79041, 3.01734], [36.79042, 3.01724], [36.79037, 3.01715], [36.79032, 3.01714], [36.79026, 3.01697], [36.79006, 3.01677], [36.78997, 3.01669], [36.78943, 3.01617], [36.78856, 3.01521], [36.7883, 3.01498], [36.78622, 3.01341], [36.78606, 3.01331], [36.78589, 3.01327], [36.78499, 3.01326], [36.78483, 3.01319], [36.78436, 3.01296], [36.78416, 3.01286], [36.7832, 3.01233], [36.78299, 3.01225], [36.78242, 3.01218], [36.78232, 3.01213], [36.78087, 3.0109], [36.78039, 3.0105], [36.78017, 3.01039], [36.78, 3.01031], [36.77985, 3.01028], [36.77983, 3.01028], [36.7797, 3.01028], [36.77962, 3.00919], [36.77962, 3.00911], [36.77952, 3.00826], [36.77947, 3.00775], [36.77938, 3.00669], [36.77933, 3.00647], [36.77919, 3.00601], [36.77914, 3.00585], [36.77912, 3.00565], [36.77914, 3.00532], [36.77924, 3.00467], [36.77937, 3.00412], [36.7794, 3.00389], [36.77942, 3.00387], [36.7794, 3.00389], [36.77937, 3.00412], [36.77924, 3.00467], [36.77914, 3.00532], [36.77912, 3.00565], [36.77914, 3.00585], [36.77919, 3.00601], [36.77933, 3.00647], [36.77938, 3.00669], [36.77947, 3.00775], [36.77952, 3.00826], [36.77962, 3.00911], [36.77962, 3.00919], [36.7797, 3.01028], [36.77895, 3.01037], [36.77852, 3.01045], [36.77809, 3.01054], [36.77714, 3.01072], [36.77602, 3.01091], [36.77522, 3.01103], [36.77462, 3.01113], [36.77429, 3.01119], [36.77425, 3.01121], [36.77423, 3.01135], [36.77417, 3.01171], [36.77412, 3.01221], [36.77386, 3.0126], [36.77372, 3.01274], [36.77359, 3.01281], [36.77323, 3.01315], [36.77309, 3.01347], [36.77287, 3.01375], [36.77274, 3.01381], [36.77242, 3.01374], [36.77233, 3.01371], [36.77216, 3.01369], [36.77187, 3.01382], [36.77096, 3.01357], [36.77059, 3.01362], [36.77047, 3.01315], [36.77037, 3.01287], [36.77017, 3.01243], [36.76992, 3.01205], [36.76907, 3.0109], [36.76862, 3.0102], [36.76854, 3.0101], [36.76844, 3.01004], [36.76677, 3.00954], [36.76647, 3.0094], [36.76608, 3.00906], [36.76563, 3.00856], [36.76534, 3.00811], [36.76507, 3.00761], [36.76489, 3.00717], [36.76474, 3.00665], [36.76465, 3.0061], [36.76444, 3.0048], [36.76436, 3.00443], [36.76425, 3.00404], [36.76406, 3.00352], [36.76386, 3.00307], [36.76367, 3.00272], [36.76336, 3.00225], [36.76271, 3.00152], [36.76224, 3.00111], [36.76168, 3.00075], [36.76081, 3.00023], [36.75871, 2.99895], [36.75822, 2.99858], [36.75806, 2.99837], [36.75794, 2.99817], [36.75791, 2.99812], [36.75787, 2.99805], [36.75778, 2.99798], [36.75769, 2.99797], [36.75769, 2.99797], [36.75746, 2.99799], [36.75724, 2.99796], [36.75705, 2.99791], [36.75653, 2.99766], [36.75538, 2.99695], [36.75516, 2.99687], [36.75491, 2.99681], [36.75467, 2.99682], [36.75445, 2.99687], [36.75355, 2.99724], [36.75315, 2.99739], [36.75277, 2.99748], [36.75251, 2.9975], [36.75212, 2.99749], [36.75177, 2.99741], [36.75092, 2.99713], [36.75026, 2.99686], [36.75004, 2.99677], [36.7499, 2.99664], [36.74981, 2.9965], [36.74976, 2.99633], [36.74972, 2.99559], [36.74964, 2.99499], [36.74944, 2.994], [36.74927, 2.99328], [36.74913, 2.99276], [36.74896, 2.99222], [36.74861, 2.99125], [36.74836, 2.99068], [36.7481, 2.9902], [36.74777, 2.98964], [36.74733, 2.98892], [36.74667, 2.98792], [36.74613, 2.98698], [36.74587, 2.98649], [36.74564, 2.98601], [36.74541, 2.98544], [36.74524, 2.98493], [36.74502, 2.9842], [36.74475, 2.98294], [36.74465, 2.98224], [36.7446, 2.98145], [36.74461, 2.9807], [36.74464, 2.98005], [36.74469, 2.97921], [36.74478, 2.97834], [36.74492, 2.97752], [36.74506, 2.97684], [36.74517, 2.97612], [36.74526, 2.97541], [36.74533, 2.97435], [36.74532, 2.97317], [36.74519, 2.97047], [36.7453, 2.9662], [36.74544, 2.9637], [36.74561, 2.96206], [36.74583, 2.96014], [36.74605, 2.95852], [36.74692, 2.95326], [36.74726, 2.95135], [36.7475, 2.94986], [36.74835, 2.94476], [36.7489, 2.94134], [36.74913, 2.94006], [36.74925, 2.93967], [36.74936, 2.93948], [36.74946, 2.93938], [36.74963, 2.93926], [36.74983, 2.9392], [36.75004, 2.93921], [36.75024, 2.93933], [36.75048, 2.93957], [36.75071, 2.93993], [36.75272, 2.94325], [36.75294, 2.94362], [36.75312, 2.94401], [36.75312, 2.94402], [36.75316, 2.9441], [36.7532, 2.94414], [36.75323, 2.94415], [36.7533, 2.94413], [36.75335, 2.94408], [36.75336, 2.94404], [36.75336, 2.94395], [36.75342, 2.94375], [36.75345, 2.94348], [36.75346, 2.94124], [36.75348, 2.9407], [36.75352, 2.94041], [36.75362, 2.93994], [36.75383, 2.93936], [36.75388, 2.93928], [36.75388, 2.93918], [36.75402, 2.93887], [36.75427, 2.93842], [36.75448, 2.93812], [36.756, 2.93623], [36.75621, 2.93598], [36.75659, 2.93553], [36.75769, 2.93432], [36.75887, 2.93299], [36.75919, 2.93262], [36.76015, 2.93142], [36.76202, 2.9291], [36.76276, 2.92825], [36.76282, 2.92817], [36.7639, 2.92687], [36.76409, 2.92664], [36.76412, 2.92661], [36.76413, 2.92657], [36.7641, 2.9265], [36.76408, 2.92649], [36.76404, 2.9265], [36.76402, 2.92653], [36.76401, 2.92657], [36.76402, 2.92661], [36.76404, 2.92663]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_20ccb56c62f123cc1cb12cb67ab71c95);
+        
+</script>
+</html>

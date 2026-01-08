@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b4c8a81e6db1e2b08c8d626802f068a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2b4c8a81e6db1e2b08c8d626802f068a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2b4c8a81e6db1e2b08c8d626802f068a = L.map(
+                "map_2b4c8a81e6db1e2b08c8d626802f068a",
+                {
+                    center: [36.76570719499798, 2.9270671527585206],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8af6787f2e5090e2de8aa98ce68d818c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var marker_947520007f218a8e25c4ed76a84fe04d = L.marker(
+                [36.76570719499798, 2.9270671527585206],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+        var popup_b861e18ce5153ec45da785bb35b1e552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12db6047ed07691a9d00d43e9c385c79 = $(`<div id="html_12db6047ed07691a9d00d43e9c385c79" style="width: 100.0%; height: 100.0%;">Naftal Direction Generale</div>`)[0];
+                popup_b861e18ce5153ec45da785bb35b1e552.setContent(html_12db6047ed07691a9d00d43e9c385c79);
+            
+        
+
+        marker_947520007f218a8e25c4ed76a84fe04d.bindPopup(popup_b861e18ce5153ec45da785bb35b1e552)
+        ;
+
+        
+    
+    
+            var marker_72a94615171569796b22ff6a899b81c6 = L.marker(
+                [36.7880782, 3.0445801],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_74396f3dad57ea3fdf307898237c7641 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_72a94615171569796b22ff6a899b81c6.setIcon(icon_74396f3dad57ea3fdf307898237c7641);
+        
+    
+        var popup_14ed488a34b684b504d0fc89f87038cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62847470cfaf28c1b4d1ad104862507d = $(`<div id="html_62847470cfaf28c1b4d1ad104862507d" style="width: 100.0%; height: 100.0%;">Arret 1   Ligne Bab el oued   avec 7 passagers</div>`)[0];
+                popup_14ed488a34b684b504d0fc89f87038cc.setContent(html_62847470cfaf28c1b4d1ad104862507d);
+            
+        
+
+        marker_72a94615171569796b22ff6a899b81c6.bindPopup(popup_14ed488a34b684b504d0fc89f87038cc)
+        ;
+
+        
+    
+    
+            marker_72a94615171569796b22ff6a899b81c6.bindTooltip(
+                `<div>
+                     Triolet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00bc4fd2c067a76b1c4582309aee9521 = L.marker(
+                [36.7854334, 3.0457395],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_7e43ef70eb0c15010744da80cdeec941 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_00bc4fd2c067a76b1c4582309aee9521.setIcon(icon_7e43ef70eb0c15010744da80cdeec941);
+        
+    
+        var popup_8cda7c26c3ba63df27b0a2656280ba6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3e4993b6dd4e469a04739b5ca0d4dde = $(`<div id="html_f3e4993b6dd4e469a04739b5ca0d4dde" style="width: 100.0%; height: 100.0%;">Arret 2   Ligne Bab el oued   avec 2 passagers</div>`)[0];
+                popup_8cda7c26c3ba63df27b0a2656280ba6e.setContent(html_f3e4993b6dd4e469a04739b5ca0d4dde);
+            
+        
+
+        marker_00bc4fd2c067a76b1c4582309aee9521.bindPopup(popup_8cda7c26c3ba63df27b0a2656280ba6e)
+        ;
+
+        
+    
+    
+            marker_00bc4fd2c067a76b1c4582309aee9521.bindTooltip(
+                `<div>
+                     climat de france
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34f8ac3a0fb75388ae7f23214eb3d6e5 = L.marker(
+                [36.7845881, 3.0447692],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_1b51c60f3c9050c530555eeefed35f6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_34f8ac3a0fb75388ae7f23214eb3d6e5.setIcon(icon_1b51c60f3c9050c530555eeefed35f6a);
+        
+    
+        var popup_bb8d1b5f29608156030413993fcfbbf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e82572a4397805684812d61a11c22895 = $(`<div id="html_e82572a4397805684812d61a11c22895" style="width: 100.0%; height: 100.0%;">Arret 3   Ligne Bab el oued   avec 3 passagers</div>`)[0];
+                popup_bb8d1b5f29608156030413993fcfbbf2.setContent(html_e82572a4397805684812d61a11c22895);
+            
+        
+
+        marker_34f8ac3a0fb75388ae7f23214eb3d6e5.bindPopup(popup_bb8d1b5f29608156030413993fcfbbf2)
+        ;
+
+        
+    
+    
+            marker_34f8ac3a0fb75388ae7f23214eb3d6e5.bindTooltip(
+                `<div>
+                     Les barreaux rouge
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e463471b53b7a251195ba03c384e116 = L.marker(
+                [36.7857822, 3.0556295],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_1bafc73ef1ff3eef41fd0017f3e94359 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_4e463471b53b7a251195ba03c384e116.setIcon(icon_1bafc73ef1ff3eef41fd0017f3e94359);
+        
+    
+        var popup_456306cdae058fd36986f3e87680a764 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f62248643f90ec7a330d0ebf77bc3d4 = $(`<div id="html_2f62248643f90ec7a330d0ebf77bc3d4" style="width: 100.0%; height: 100.0%;">Arret 4   Ligne Bab el oued   avec 3 passagers</div>`)[0];
+                popup_456306cdae058fd36986f3e87680a764.setContent(html_2f62248643f90ec7a330d0ebf77bc3d4);
+            
+        
+
+        marker_4e463471b53b7a251195ba03c384e116.bindPopup(popup_456306cdae058fd36986f3e87680a764)
+        ;
+
+        
+    
+    
+            marker_4e463471b53b7a251195ba03c384e116.bindTooltip(
+                `<div>
+                     Serkaji
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43bd2fc967398a39402f121ab4770698 = L.marker(
+                [36.7891007, 3.0573404],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_2319474cb6064a988e7fc1304fad1fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_43bd2fc967398a39402f121ab4770698.setIcon(icon_2319474cb6064a988e7fc1304fad1fb9);
+        
+    
+        var popup_49361b86ac98e5e7052a348a543ce2ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0f57c3ed5b76d433d5ee49ca550d1b = $(`<div id="html_9a0f57c3ed5b76d433d5ee49ca550d1b" style="width: 100.0%; height: 100.0%;">Arret 5   Ligne Bab el oued   avec 1 passagers</div>`)[0];
+                popup_49361b86ac98e5e7052a348a543ce2ee.setContent(html_9a0f57c3ed5b76d433d5ee49ca550d1b);
+            
+        
+
+        marker_43bd2fc967398a39402f121ab4770698.bindPopup(popup_49361b86ac98e5e7052a348a543ce2ee)
+        ;
+
+        
+    
+    
+            marker_43bd2fc967398a39402f121ab4770698.bindTooltip(
+                `<div>
+                     Okba
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc06e1deb291757858ff33b258811784 = L.marker(
+                [36.7896041, 3.059969],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_e0933179fd49a5aff3c2928ec898a663 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_dc06e1deb291757858ff33b258811784.setIcon(icon_e0933179fd49a5aff3c2928ec898a663);
+        
+    
+        var popup_ca2029235bb5a23a69356108d09c523b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a2c12a99bdcdb74d0e67a89b3c31eb = $(`<div id="html_c7a2c12a99bdcdb74d0e67a89b3c31eb" style="width: 100.0%; height: 100.0%;">Arret 6   Ligne Bab el oued   avec 4 passagers</div>`)[0];
+                popup_ca2029235bb5a23a69356108d09c523b.setContent(html_c7a2c12a99bdcdb74d0e67a89b3c31eb);
+            
+        
+
+        marker_dc06e1deb291757858ff33b258811784.bindPopup(popup_ca2029235bb5a23a69356108d09c523b)
+        ;
+
+        
+    
+    
+            marker_dc06e1deb291757858ff33b258811784.bindTooltip(
+                `<div>
+                     Hôtel la famille
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4078015034afba184be8f804d51c390f = L.marker(
+                [36.7931292, 3.0498322],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_c6b2fd0b8f2086a46792bd702e15ef94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_4078015034afba184be8f804d51c390f.setIcon(icon_c6b2fd0b8f2086a46792bd702e15ef94);
+        
+    
+        var popup_e39c6743e82f0af5118dc255a3ffa94e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69ade89f2299e3b406bc4243b19cb843 = $(`<div id="html_69ade89f2299e3b406bc4243b19cb843" style="width: 100.0%; height: 100.0%;">Arret 7   Ligne Bab el oued   avec 1 passagers</div>`)[0];
+                popup_e39c6743e82f0af5118dc255a3ffa94e.setContent(html_69ade89f2299e3b406bc4243b19cb843);
+            
+        
+
+        marker_4078015034afba184be8f804d51c390f.bindPopup(popup_e39c6743e82f0af5118dc255a3ffa94e)
+        ;
+
+        
+    
+    
+            marker_4078015034afba184be8f804d51c390f.bindTooltip(
+                `<div>
+                     Mayo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46d4c10c23164108f2ed87cbc07000cc = L.marker(
+                [36.8017051, 3.0485361],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_9a233a90c4ff2769ad01778c31b51e52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_46d4c10c23164108f2ed87cbc07000cc.setIcon(icon_9a233a90c4ff2769ad01778c31b51e52);
+        
+    
+        var popup_c88345796d65a5b83e6f60f1dff38d7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4bcb04a7eb36a01501b1b5c1172aff2 = $(`<div id="html_f4bcb04a7eb36a01501b1b5c1172aff2" style="width: 100.0%; height: 100.0%;">Arret 8   Ligne Bab el oued   avec 1 passagers</div>`)[0];
+                popup_c88345796d65a5b83e6f60f1dff38d7c.setContent(html_f4bcb04a7eb36a01501b1b5c1172aff2);
+            
+        
+
+        marker_46d4c10c23164108f2ed87cbc07000cc.bindPopup(popup_c88345796d65a5b83e6f60f1dff38d7c)
+        ;
+
+        
+    
+    
+            marker_46d4c10c23164108f2ed87cbc07000cc.bindTooltip(
+                `<div>
+                     Stade bouloughine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4b79fe09461ff0c7640e2a7bfd16513 = L.marker(
+                [36.8023277, 3.0480663],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_2430428ac0da81bf5658fafb1ed726e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_a4b79fe09461ff0c7640e2a7bfd16513.setIcon(icon_2430428ac0da81bf5658fafb1ed726e1);
+        
+    
+        var popup_0c71656288b7d4645f9d0ff8d0166500 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa49a85fa3e6f2a73aa9a3f8438f8d9 = $(`<div id="html_0aa49a85fa3e6f2a73aa9a3f8438f8d9" style="width: 100.0%; height: 100.0%;">Arret 9   Ligne Bab el oued   avec 1 passagers</div>`)[0];
+                popup_0c71656288b7d4645f9d0ff8d0166500.setContent(html_0aa49a85fa3e6f2a73aa9a3f8438f8d9);
+            
+        
+
+        marker_a4b79fe09461ff0c7640e2a7bfd16513.bindPopup(popup_0c71656288b7d4645f9d0ff8d0166500)
+        ;
+
+        
+    
+    
+            marker_a4b79fe09461ff0c7640e2a7bfd16513.bindTooltip(
+                `<div>
+                     Hôtel bouloughine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a0b7565ea96b6f7301e0e8837febe72 = L.marker(
+                [36.8120927, 3.022182],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_1af5a07bdc98f1ed11d1e59d5354f82e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_5a0b7565ea96b6f7301e0e8837febe72.setIcon(icon_1af5a07bdc98f1ed11d1e59d5354f82e);
+        
+    
+        var popup_ad59a225c2f04046bacc8eec147d8f6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_850156ef578088ae186f1ca65649209c = $(`<div id="html_850156ef578088ae186f1ca65649209c" style="width: 100.0%; height: 100.0%;">Arret 10   Ligne Bab el oued   avec 2 passagers</div>`)[0];
+                popup_ad59a225c2f04046bacc8eec147d8f6b.setContent(html_850156ef578088ae186f1ca65649209c);
+            
+        
+
+        marker_5a0b7565ea96b6f7301e0e8837febe72.bindPopup(popup_ad59a225c2f04046bacc8eec147d8f6b)
+        ;
+
+        
+    
+    
+            marker_5a0b7565ea96b6f7301e0e8837febe72.bindTooltip(
+                `<div>
+                     La vigie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca5e53c87380488fe774edd656920322 = L.marker(
+                [36.816426, 3.0168823],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_a8ee5c3e25f408415cad12646fd41a32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_ca5e53c87380488fe774edd656920322.setIcon(icon_a8ee5c3e25f408415cad12646fd41a32);
+        
+    
+        var popup_11858365ff703723228aa13ea17a8bd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88480cdc21a4903af45bed7a7165d084 = $(`<div id="html_88480cdc21a4903af45bed7a7165d084" style="width: 100.0%; height: 100.0%;">Arret 11   Ligne Bab el oued   avec 1 passagers</div>`)[0];
+                popup_11858365ff703723228aa13ea17a8bd5.setContent(html_88480cdc21a4903af45bed7a7165d084);
+            
+        
+
+        marker_ca5e53c87380488fe774edd656920322.bindPopup(popup_11858365ff703723228aa13ea17a8bd5)
+        ;
+
+        
+    
+    
+            marker_ca5e53c87380488fe774edd656920322.bindTooltip(
+                `<div>
+                     Usine ciment
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5168cb210281573ea5f5a4e53b385ab7 = L.marker(
+                [36.8172082, 3.009406],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_fe197e5ae26bc25485b7278322629530 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_5168cb210281573ea5f5a4e53b385ab7.setIcon(icon_fe197e5ae26bc25485b7278322629530);
+        
+    
+        var popup_9ac906cd367ce5e713243955e5012212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d18eab8d66d84f5c7ec379c93824193a = $(`<div id="html_d18eab8d66d84f5c7ec379c93824193a" style="width: 100.0%; height: 100.0%;">Arret 12   Ligne Bab el oued   avec 4 passagers</div>`)[0];
+                popup_9ac906cd367ce5e713243955e5012212.setContent(html_d18eab8d66d84f5c7ec379c93824193a);
+            
+        
+
+        marker_5168cb210281573ea5f5a4e53b385ab7.bindPopup(popup_9ac906cd367ce5e713243955e5012212)
+        ;
+
+        
+    
+    
+            marker_5168cb210281573ea5f5a4e53b385ab7.bindTooltip(
+                `<div>
+                     Rond Point la pointe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fe9e6fd63a2daed495b601cf092cad0 = L.marker(
+                [36.8157727, 3.0010211],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_b2297ca6ccdeeb57570e8975ec08161f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_7fe9e6fd63a2daed495b601cf092cad0.setIcon(icon_b2297ca6ccdeeb57570e8975ec08161f);
+        
+    
+        var popup_affc86b7de9346309599697e9896b022 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4e8c661b0ac129abb7a8f479ab6d0dc = $(`<div id="html_c4e8c661b0ac129abb7a8f479ab6d0dc" style="width: 100.0%; height: 100.0%;">Arret 13   Ligne Bab el oued   avec 2 passagers</div>`)[0];
+                popup_affc86b7de9346309599697e9896b022.setContent(html_c4e8c661b0ac129abb7a8f479ab6d0dc);
+            
+        
+
+        marker_7fe9e6fd63a2daed495b601cf092cad0.bindPopup(popup_affc86b7de9346309599697e9896b022)
+        ;
+
+        
+    
+    
+            marker_7fe9e6fd63a2daed495b601cf092cad0.bindTooltip(
+                `<div>
+                     Les horizons
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ae4bafb0a34a03681b26532cd844704 = L.marker(
+                [36.8125037, 2.9871634],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_cac2fab7a48f2c02666bbd256f080920 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_6ae4bafb0a34a03681b26532cd844704.setIcon(icon_cac2fab7a48f2c02666bbd256f080920);
+        
+    
+        var popup_d19eb23e40ec90b156500de611cf29c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc5144fec845050c55dd38738822332f = $(`<div id="html_cc5144fec845050c55dd38738822332f" style="width: 100.0%; height: 100.0%;">Arret 14   Ligne Bab el oued   avec 1 passagers</div>`)[0];
+                popup_d19eb23e40ec90b156500de611cf29c2.setContent(html_cc5144fec845050c55dd38738822332f);
+            
+        
+
+        marker_6ae4bafb0a34a03681b26532cd844704.bindPopup(popup_d19eb23e40ec90b156500de611cf29c2)
+        ;
+
+        
+    
+    
+            marker_6ae4bafb0a34a03681b26532cd844704.bindTooltip(
+                `<div>
+                     Birouma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff564e34fc621ea5d5566e18f55476c7 = L.marker(
+                [36.8138796, 2.9763588],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_28dd1f525a6145b899ddbf54b2d2ed2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_ff564e34fc621ea5d5566e18f55476c7.setIcon(icon_28dd1f525a6145b899ddbf54b2d2ed2c);
+        
+    
+        var popup_5a14311c1df0d77c5aa25b6cbb48b63d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a8825e8d92478ae37a0ccd2271c49c7 = $(`<div id="html_6a8825e8d92478ae37a0ccd2271c49c7" style="width: 100.0%; height: 100.0%;">Arret 15   Ligne Bab el oued   avec 2 passagers</div>`)[0];
+                popup_5a14311c1df0d77c5aa25b6cbb48b63d.setContent(html_6a8825e8d92478ae37a0ccd2271c49c7);
+            
+        
+
+        marker_ff564e34fc621ea5d5566e18f55476c7.bindPopup(popup_5a14311c1df0d77c5aa25b6cbb48b63d)
+        ;
+
+        
+    
+    
+            marker_ff564e34fc621ea5d5566e18f55476c7.bindTooltip(
+                `<div>
+                     Tribunal bainem
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3843adace83d8280ae69373113f96a3d = L.marker(
+                [36.8138423, 2.9695075],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_b5318e870571d686aa3923517368d773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_3843adace83d8280ae69373113f96a3d.setIcon(icon_b5318e870571d686aa3923517368d773);
+        
+    
+        var popup_030a135db603f4bf9e06f88f233978a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_899b568fdcb508df15fbcfc45107a423 = $(`<div id="html_899b568fdcb508df15fbcfc45107a423" style="width: 100.0%; height: 100.0%;">Arret 16   Ligne Bab el oued   avec 4 passagers</div>`)[0];
+                popup_030a135db603f4bf9e06f88f233978a9.setContent(html_899b568fdcb508df15fbcfc45107a423);
+            
+        
+
+        marker_3843adace83d8280ae69373113f96a3d.bindPopup(popup_030a135db603f4bf9e06f88f233978a9)
+        ;
+
+        
+    
+    
+            marker_3843adace83d8280ae69373113f96a3d.bindTooltip(
+                `<div>
+                     Elhammamet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18699e4e08ec0fbf371f72f0e2f1303a = L.marker(
+                [36.8076244, 2.9460559],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_216c2151265420ff96b1fb3ad83ac8ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_18699e4e08ec0fbf371f72f0e2f1303a.setIcon(icon_216c2151265420ff96b1fb3ad83ac8ea);
+        
+    
+        var popup_194f9628cd8bac8b48f4c35d95eb0595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14746e710fe20a3229efa51bcf37821c = $(`<div id="html_14746e710fe20a3229efa51bcf37821c" style="width: 100.0%; height: 100.0%;">Arret 17   Ligne Bab el oued   avec 2 passagers</div>`)[0];
+                popup_194f9628cd8bac8b48f4c35d95eb0595.setContent(html_14746e710fe20a3229efa51bcf37821c);
+            
+        
+
+        marker_18699e4e08ec0fbf371f72f0e2f1303a.bindPopup(popup_194f9628cd8bac8b48f4c35d95eb0595)
+        ;
+
+        
+    
+    
+            marker_18699e4e08ec0fbf371f72f0e2f1303a.bindTooltip(
+                `<div>
+                     Cinclo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24873feab2c6f10b0fdf81add8304529 = L.marker(
+                [36.8066317, 2.9371456],
+                {}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+    
+            var icon_be7ea858f0fb6804e879f5bda7fc6959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_24873feab2c6f10b0fdf81add8304529.setIcon(icon_be7ea858f0fb6804e879f5bda7fc6959);
+        
+    
+        var popup_739c9dff180338b376e09d10e100fc61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78b902cd298db581eaba2ecc9f07b96f = $(`<div id="html_78b902cd298db581eaba2ecc9f07b96f" style="width: 100.0%; height: 100.0%;">Arret 18   Ligne Bab el oued   avec 1 passagers</div>`)[0];
+                popup_739c9dff180338b376e09d10e100fc61.setContent(html_78b902cd298db581eaba2ecc9f07b96f);
+            
+        
+
+        marker_24873feab2c6f10b0fdf81add8304529.bindPopup(popup_739c9dff180338b376e09d10e100fc61)
+        ;
+
+        
+    
+    
+            marker_24873feab2c6f10b0fdf81add8304529.bindTooltip(
+                `<div>
+                     Cimetière
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_147d800b067ff6960496f0050893f86e = L.polyline(
+                [[36.7881, 3.04459], [36.78823, 3.04403], [36.78824, 3.04382], [36.78823, 3.04368], [36.78821, 3.04361], [36.78815, 3.04351], [36.78806, 3.04346], [36.78778, 3.04307], [36.78768, 3.04294], [36.78758, 3.04285], [36.7874, 3.04276], [36.78719, 3.04273], [36.78681, 3.04273], [36.78533, 3.0427], [36.78484, 3.04262], [36.78469, 3.04257], [36.78451, 3.04248], [36.78423, 3.04227], [36.78364, 3.04173], [36.78336, 3.04154], [36.78303, 3.04141], [36.78249, 3.04127], [36.78216, 3.04118], [36.7819, 3.04104], [36.78148, 3.04074], [36.78118, 3.04051], [36.78095, 3.04035], [36.77975, 3.03961], [36.77929, 3.03936], [36.77924, 3.0394], [36.77922, 3.03943], [36.77924, 3.03949], [36.77961, 3.03969], [36.78064, 3.0403], [36.78181, 3.04113], [36.78201, 3.04125], [36.78216, 3.04132], [36.78233, 3.04138], [36.78301, 3.04156], [36.78313, 3.04162], [36.78347, 3.04182], [36.78389, 3.04219], [36.78413, 3.04243], [36.78448, 3.04267], [36.78483, 3.0428], [36.78569, 3.04284], [36.7865, 3.04286], [36.78675, 3.04284], [36.78724, 3.04286], [36.78737, 3.04289], [36.78749, 3.04296], [36.78763, 3.04307], [36.78773, 3.0432], [36.78788, 3.04342], [36.78793, 3.04353], [36.78796, 3.04361], [36.788, 3.04386], [36.78798, 3.04407], [36.78778, 3.04509], [36.78775, 3.04514], [36.7875, 3.04527], [36.78737, 3.04537], [36.78726, 3.04551], [36.78708, 3.0458], [36.78686, 3.04628], [36.78675, 3.04649], [36.78655, 3.04671], [36.78636, 3.04687], [36.78609, 3.04705], [36.78593, 3.04711], [36.78583, 3.0471], [36.78578, 3.04707], [36.78573, 3.04704], [36.78566, 3.04695], [36.7856, 3.0463], [36.78553, 3.04598], [36.78548, 3.04584], [36.78543, 3.04574], [36.78522, 3.04532], [36.7852, 3.0452], [36.78522, 3.04507], [36.78527, 3.04494], [36.78536, 3.04485], [36.78542, 3.04483], [36.78557, 3.04484], [36.78572, 3.0449], [36.78608, 3.0451], [36.78619, 3.04513], [36.7863, 3.04514], [36.78636, 3.04508], [36.78643, 3.04495], [36.78644, 3.04486], [36.78643, 3.04464], [36.78639, 3.04443], [36.78633, 3.04427], [36.78626, 3.04418], [36.78618, 3.04412], [36.78611, 3.04408], [36.78595, 3.04399], [36.78587, 3.04395], [36.78562, 3.04392], [36.78547, 3.04394], [36.78542, 3.04397], [36.78531, 3.04402], [36.78497, 3.0443], [36.7847, 3.04449], [36.78456, 3.04453], [36.78449, 3.04458], [36.78445, 3.04468], [36.78445, 3.04473], [36.78439, 3.04503], [36.78426, 3.04536], [36.7842, 3.0455], [36.78407, 3.04572], [36.78395, 3.04587], [36.7838, 3.04599], [36.7836, 3.04612], [36.78338, 3.0462], [36.78311, 3.04623], [36.78261, 3.04622], [36.78246, 3.04624], [36.78223, 3.04632], [36.7814, 3.04681], [36.78118, 3.04695], [36.78093, 3.04715], [36.78079, 3.04719], [36.78059, 3.04718], [36.77988, 3.04699], [36.77987, 3.04707], [36.78063, 3.04727], [36.78076, 3.04728], [36.78081, 3.04727], [36.78102, 3.04721], [36.78125, 3.04704], [36.78184, 3.04668], [36.78224, 3.04646], [36.78241, 3.04639], [36.78259, 3.04636], [36.78331, 3.04636], [36.78358, 3.04628], [36.78384, 3.04615], [36.78402, 3.046], [36.78419, 3.04581], [36.78436, 3.04553], [36.78443, 3.04533], [36.78449, 3.04512], [36.78454, 3.04476], [36.78455, 3.0447], [36.78456, 3.04453], [36.7847, 3.04449], [36.78497, 3.0443], [36.78531, 3.04402], [36.78542, 3.04397], [36.78547, 3.04394], [36.78562, 3.04392], [36.78587, 3.04395], [36.78595, 3.04399], [36.78611, 3.04408], [36.78618, 3.04412], [36.78626, 3.04418], [36.78633, 3.04427], [36.78639, 3.04443], [36.78643, 3.04464], [36.78644, 3.04486], [36.78643, 3.04495], [36.78636, 3.04508], [36.7863, 3.04514], [36.78619, 3.04513], [36.78608, 3.0451], [36.78572, 3.0449], [36.78557, 3.04484], [36.78542, 3.04483], [36.78536, 3.04485], [36.78527, 3.04494], [36.78522, 3.04507], [36.7852, 3.0452], [36.78522, 3.04532], [36.78548, 3.04584], [36.78553, 3.04598], [36.7856, 3.0463], [36.78566, 3.04695], [36.7857, 3.04728], [36.78572, 3.04758], [36.78573, 3.04764], [36.78571, 3.04781], [36.78571, 3.04796], [36.78574, 3.04809], [36.78578, 3.04818], [36.78583, 3.04823], [36.78595, 3.04835], [36.78642, 3.04832], [36.78676, 3.04834], [36.78689, 3.04846], [36.78695, 3.04854], [36.78753, 3.04952], [36.78771, 3.05016], [36.78807, 3.05073], [36.78818, 3.05101], [36.78823, 3.05115], [36.78832, 3.05162], [36.78806, 3.05192], [36.78779, 3.05221], [36.7875, 3.05254], [36.78745, 3.05263], [36.78735, 3.05288], [36.78714, 3.05312], [36.78695, 3.05339], [36.78684, 3.05349], [36.78669, 3.05356], [36.78657, 3.05373], [36.78644, 3.054], [36.78643, 3.05422], [36.78631, 3.0545], [36.78594, 3.05526], [36.78578, 3.05563], [36.78571, 3.0558], [36.78567, 3.05596], [36.78566, 3.05609], [36.78565, 3.0561], [36.78559, 3.05615], [36.78558, 3.0562], [36.7856, 3.05625], [36.78563, 3.05629], [36.78568, 3.05629], [36.7857, 3.05628], [36.78586, 3.05632], [36.78689, 3.05788], [36.78701, 3.05794], [36.78711, 3.05791], [36.78716, 3.05787], [36.78719, 3.05781], [36.78723, 3.05774], [36.78724, 3.05766], [36.78723, 3.05741], [36.78691, 3.05637], [36.7868, 3.05608], [36.78679, 3.05599], [36.78679, 3.0559], [36.78683, 3.05581], [36.78689, 3.05575], [36.78695, 3.05572], [36.78702, 3.05573], [36.7873, 3.05591], [36.788, 3.05628], [36.78837, 3.05644], [36.78846, 3.05649], [36.78855, 3.05659], [36.78857, 3.05665], [36.78856, 3.05671], [36.7885, 3.05676], [36.78841, 3.05675], [36.78803, 3.0566], [36.78759, 3.05639], [36.78755, 3.0564], [36.78751, 3.05644], [36.78748, 3.05654], [36.78753, 3.05666], [36.78783, 3.05697], [36.78787, 3.05703], [36.78797, 3.05733], [36.788, 3.05743], [36.788, 3.05761], [36.78798, 3.05852], [36.78799, 3.0586], [36.78803, 3.05869], [36.78808, 3.05876], [36.78817, 3.05883], [36.78829, 3.05881], [36.78838, 3.05875], [36.78845, 3.05865], [36.78883, 3.0578], [36.78894, 3.05759], [36.78909, 3.05733], [36.78927, 3.05703], [36.78929, 3.05707], [36.78933, 3.0571], [36.78938, 3.0571], [36.78949, 3.05778], [36.78924, 3.05812], [36.78921, 3.05822], [36.78921, 3.05829], [36.78923, 3.05836], [36.78928, 3.05843], [36.78987, 3.05882], [36.78995, 3.05891], [36.78996, 3.05905], [36.78961, 3.05997], [36.78932, 3.06074], [36.78917, 3.06126], [36.78931, 3.06106], [36.7894, 3.06087], [36.78942, 3.06082], [36.78975, 3.06007], [36.79022, 3.059], [36.79047, 3.05845], [36.79073, 3.05787], [36.79111, 3.05813], [36.79155, 3.05842], [36.79166, 3.05822], [36.79181, 3.05791], [36.79218, 3.05709], [36.79227, 3.05684], [36.79249, 3.05612], [36.79254, 3.05591], [36.79265, 3.0556], [36.79279, 3.05518], [36.79318, 3.05425], [36.7932, 3.0542], [36.79324, 3.0541], [36.79343, 3.0537], [36.79359, 3.05345], [36.79385, 3.05313], [36.79405, 3.05305], [36.79419, 3.05306], [36.7954, 3.05354], [36.79557, 3.05354], [36.79574, 3.05344], [36.79588, 3.0533], [36.79634, 3.05276], [36.79669, 3.05225], [36.79684, 3.05168], [36.79685, 3.05144], [36.7964, 3.05135], [36.79614, 3.05128], [36.79573, 3.05124], [36.79501, 3.05167], [36.79477, 3.05194], [36.79448, 3.05226], [36.79407, 3.05179], [36.79329, 3.05078], [36.79324, 3.05064], [36.7932, 3.05041], [36.79316, 3.05003], [36.79313, 3.04983], [36.79309, 3.04948], [36.79264, 3.04867], [36.7927, 3.04891], [36.79286, 3.04922], [36.793, 3.04946], [36.79309, 3.05009], [36.7931, 3.05023], [36.79316, 3.05066], [36.79322, 3.05083], [36.79331, 3.05095], [36.79386, 3.05166], [36.79415, 3.05202], [36.79432, 3.05224], [36.79441, 3.05236], [36.79416, 3.05268], [36.79412, 3.0528], [36.79411, 3.05286], [36.79413, 3.05296], [36.79419, 3.05306], [36.7954, 3.05354], [36.79557, 3.05354], [36.79574, 3.05344], [36.79588, 3.0533], [36.79634, 3.05276], [36.79669, 3.05225], [36.79694, 3.05183], [36.79708, 3.05164], [36.79724, 3.05147], [36.79736, 3.05143], [36.79757, 3.05131], [36.79779, 3.05107], [36.79828, 3.05038], [36.79887, 3.04958], [36.79917, 3.04932], [36.79952, 3.04908], [36.79974, 3.049], [36.80008, 3.04897], [36.80073, 3.04903], [36.80088, 3.04904], [36.80095, 3.04901], [36.801, 3.04899], [36.80133, 3.04879], [36.8017, 3.04852], [36.80203, 3.04828], [36.80219, 3.04815], [36.80232, 3.04806], [36.80245, 3.04796], [36.80276, 3.04773], [36.80291, 3.04755], [36.80299, 3.04742], [36.80307, 3.0473], [36.80327, 3.0469], [36.80353, 3.04644], [36.80371, 3.04631], [36.80382, 3.04623], [36.80436, 3.046], [36.8045, 3.04595], [36.80464, 3.04586], [36.80476, 3.04575], [36.80488, 3.0456], [36.80495, 3.04544], [36.80502, 3.04521], [36.80513, 3.04473], [36.80521, 3.04444], [36.80531, 3.04423], [36.80559, 3.04377], [36.80583, 3.04334], [36.80602, 3.04297], [36.80676, 3.04165], [36.80705, 3.04118], [36.80725, 3.04088], [36.80748, 3.04071], [36.8077, 3.04061], [36.80814, 3.0405], [36.80847, 3.0404], [36.80863, 3.04031], [36.80884, 3.04014], [36.80899, 3.03994], [36.80932, 3.03935], [36.80942, 3.03919], [36.80948, 3.039], [36.8095, 3.03872], [36.80949, 3.03847], [36.80936, 3.03808], [36.80905, 3.03734], [36.80899, 3.03713], [36.80893, 3.03688], [36.80893, 3.03668], [36.80896, 3.03641], [36.80903, 3.03619], [36.80919, 3.03586], [36.80932, 3.03567], [36.80957, 3.03522], [36.80966, 3.03495], [36.80968, 3.03467], [36.80967, 3.03444], [36.80962, 3.03422], [36.80947, 3.03367], [36.80944, 3.03336], [36.80949, 3.0328], [36.80956, 3.03242], [36.80961, 3.03226], [36.80978, 3.03196], [36.81037, 3.03109], [36.81055, 3.03084], [36.81063, 3.03071], [36.81073, 3.03054], [36.81103, 3.03003], [36.8115, 3.02914], [36.8115, 3.0291], [36.81156, 3.02897], [36.81162, 3.02877], [36.81168, 3.02858], [36.81181, 3.0282], [36.81188, 3.02786], [36.81189, 3.02755], [36.81181, 3.02719], [36.81156, 3.02638], [36.81146, 3.0262], [36.81141, 3.02512], [36.81141, 3.0245], [36.81148, 3.02417], [36.8118, 3.02299], [36.81206, 3.0222], [36.81208, 3.02217], [36.81215, 3.02205], [36.81219, 3.02197], [36.81236, 3.02179], [36.81294, 3.02128], [36.81307, 3.02112], [36.81316, 3.02094], [36.8132, 3.02086], [36.81343, 3.02004], [36.81353, 3.01955], [36.81365, 3.01923], [36.81374, 3.01909], [36.81385, 3.01897], [36.81412, 3.01876], [36.81433, 3.01868], [36.81478, 3.01863], [36.81499, 3.01864], [36.81526, 3.01864], [36.81535, 3.01862], [36.81544, 3.01856], [36.81553, 3.01845], [36.81575, 3.01803], [36.81595, 3.01778], [36.81622, 3.01736], [36.81635, 3.01711], [36.81641, 3.01688], [36.81642, 3.01683], [36.81647, 3.01649], [36.81648, 3.0161], [36.81652, 3.01533], [36.81656, 3.01509], [36.81666, 3.01474], [36.81677, 3.0144], [36.81684, 3.01419], [36.81691, 3.01399], [36.81693, 3.01391], [36.81717, 3.01324], [36.8172, 3.01316], [36.81742, 3.01246], [36.81746, 3.0123], [36.81747, 3.01191], [36.81744, 3.01146], [36.81735, 3.01069], [36.81731, 3.01043], [36.81729, 3.01027], [36.81719, 3.00944], [36.81719, 3.00941], [36.81714, 3.00903], [36.81707, 3.00863], [36.81705, 3.00855], [36.81692, 3.00803], [36.81674, 3.00754], [36.81631, 3.00649], [36.81614, 3.00602], [36.81602, 3.00557], [36.81595, 3.00513], [36.81583, 3.00369], [36.81583, 3.0034], [36.8158, 3.00255], [36.8158, 3.0019], [36.81579, 3.0014], [36.81577, 3.00108], [36.81575, 3.00103], [36.8157, 3.00077], [36.81537, 2.9994], [36.81495, 2.99783], [36.81471, 2.99687], [36.8147, 2.99675], [36.81469, 2.99664], [36.81469, 2.99633], [36.81473, 2.99615], [36.81477, 2.9959], [36.81486, 2.99539], [36.81493, 2.99494], [36.81492, 2.99453], [36.81486, 2.9941], [36.81477, 2.99379], [36.81468, 2.9936], [36.8144, 2.99304], [36.81364, 2.99152], [36.81359, 2.99143], [36.8135, 2.99125], [36.81337, 2.99099], [36.81277, 2.98982], [36.81265, 2.98937], [36.81232, 2.9881], [36.8123, 2.98788], [36.81231, 2.98776], [36.81234, 2.98755], [36.81244, 2.98714], [36.81293, 2.98504], [36.81294, 2.98474], [36.81294, 2.98433], [36.81292, 2.98426], [36.81272, 2.98341], [36.81262, 2.98298], [36.8126, 2.98255], [36.81265, 2.98225], [36.8127, 2.98199], [36.81282, 2.98161], [36.81319, 2.98029], [36.81351, 2.97919], [36.8136, 2.97887], [36.81385, 2.97794], [36.81387, 2.97785], [36.81394, 2.97758], [36.81399, 2.97726], [36.81399, 2.97683], [36.81386, 2.97638], [36.81386, 2.97637], [36.81372, 2.97588], [36.81359, 2.97543], [36.81359, 2.97505], [36.8136, 2.97474], [36.81363, 2.97318], [36.81365, 2.97274], [36.81372, 2.97126], [36.81373, 2.97071], [36.81378, 2.9695], [36.8138, 2.96909], [36.81383, 2.9684], [36.81382, 2.96825], [36.8138, 2.96807], [36.81359, 2.9671], [36.81358, 2.96703], [36.81345, 2.96632], [36.81326, 2.96529], [36.81308, 2.96434], [36.81282, 2.96315], [36.81272, 2.96278], [36.81191, 2.96084], [36.81156, 2.95999], [36.81134, 2.95944], [36.81128, 2.95924], [36.81127, 2.95895], [36.81125, 2.9586], [36.81123, 2.95828], [36.81123, 2.95814], [36.81117, 2.95621], [36.81113, 2.95565], [36.81111, 2.95543], [36.81109, 2.95521], [36.81105, 2.95477], [36.81102, 2.95436], [36.81093, 2.95363], [36.81087, 2.95323], [36.81072, 2.95253], [36.81069, 2.95235], [36.81058, 2.95159], [36.81047, 2.9512], [36.81024, 2.95073], [36.81015, 2.95059], [36.80966, 2.94983], [36.80947, 2.94953], [36.80858, 2.94805], [36.80851, 2.94794], [36.80786, 2.94695], [36.80779, 2.94678], [36.80769, 2.94647], [36.80762, 2.94611], [36.80761, 2.94606], [36.80736, 2.94454], [36.80728, 2.94411], [36.80716, 2.94326], [36.80713, 2.94309], [36.80709, 2.94181], [36.80711, 2.94155], [36.80717, 2.94122], [36.80736, 2.94055], [36.80741, 2.9403], [36.80742, 2.9401], [36.80742, 2.93991], [36.80736, 2.93955], [36.80728, 2.93927], [36.80719, 2.93905], [36.80692, 2.93814], [36.8066, 2.93716], [36.80651, 2.93686], [36.80595, 2.93513], [36.80559, 2.93403], [36.80528, 2.93301], [36.80501, 2.9316], [36.80474, 2.92979], [36.80467, 2.92952], [36.80458, 2.92926], [36.80432, 2.92852], [36.80394, 2.92776], [36.8037, 2.92739], [36.80237, 2.92549], [36.80227, 2.92529], [36.80199, 2.92492], [36.80155, 2.9241], [36.80141, 2.92378], [36.80115, 2.92301], [36.80104, 2.92243], [36.80096, 2.92216], [36.80054, 2.91958], [36.80044, 2.91849], [36.80042, 2.91815], [36.80041, 2.91796], [36.80034, 2.91663], [36.80033, 2.91555], [36.80029, 2.91398], [36.8003, 2.91367], [36.8003, 2.9136], [36.80031, 2.91328], [36.80029, 2.91262], [36.80028, 2.91243], [36.80027, 2.91216], [36.80026, 2.91129], [36.8005, 2.91015], [36.80053, 2.90974], [36.80052, 2.90932], [36.80046, 2.90884], [36.80036, 2.90843], [36.80028, 2.90817], [36.80026, 2.90803], [36.80025, 2.90795], [36.8001, 2.90761], [36.79991, 2.90722], [36.79973, 2.90694], [36.79933, 2.90652], [36.79927, 2.90646], [36.79915, 2.90635], [36.79895, 2.9062], [36.79888, 2.90616], [36.79863, 2.90602], [36.7978, 2.90567], [36.79748, 2.90553], [36.79663, 2.90519], [36.7959, 2.90488], [36.79573, 2.90481], [36.79414, 2.90415], [36.79304, 2.90382], [36.7919, 2.90365], [36.7918, 2.90363], [36.79158, 2.90355], [36.79158, 2.90355], [36.79156, 2.90352], [36.79149, 2.90347], [36.79141, 2.90348], [36.79138, 2.9035], [36.79126, 2.9035], [36.79049, 2.90325], [36.78882, 2.90263], [36.78806, 2.90236], [36.78722, 2.90204], [36.78707, 2.90194], [36.78699, 2.90186], [36.78697, 2.9018], [36.78689, 2.90172], [36.78684, 2.90171], [36.78674, 2.90175], [36.78662, 2.90179], [36.78641, 2.90176], [36.7862, 2.90169], [36.78507, 2.90127], [36.78477, 2.90118], [36.78455, 2.90117], [36.78419, 2.90123], [36.78383, 2.90139], [36.78352, 2.90162], [36.78333, 2.90172], [36.783, 2.9018], [36.78243, 2.9018], [36.78204, 2.90166], [36.78169, 2.90139], [36.78143, 2.90106], [36.78121, 2.90068], [36.78093, 2.90024], [36.78088, 2.90011], [36.78076, 2.89993], [36.78066, 2.89979], [36.78035, 2.8994], [36.77999, 2.89891], [36.77994, 2.89883], [36.77989, 2.8988], [36.7798, 2.89881], [36.77976, 2.89884], [36.77973, 2.89888], [36.77971, 2.89899], [36.77975, 2.89909], [36.77973, 2.89936], [36.77976, 2.89959], [36.77991, 2.90001], [36.77996, 2.9001], [36.78001, 2.90027], [36.78003, 2.90044], [36.78001, 2.90089], [36.77986, 2.90169], [36.77973, 2.90254], [36.77948, 2.90379], [36.7793, 2.90466], [36.77928, 2.90492], [36.7793, 2.90538], [36.7794, 2.90658], [36.77938, 2.90682], [36.77935, 2.90698], [36.77898, 2.90816], [36.77839, 2.90997], [36.77827, 2.91028], [36.77816, 2.91048], [36.77804, 2.91065], [36.77787, 2.91083], [36.77764, 2.91098], [36.77743, 2.91109], [36.77697, 2.91129], [36.77666, 2.91145], [36.77633, 2.91169], [36.77602, 2.9119], [36.77577, 2.91211], [36.77557, 2.91231], [36.77544, 2.91251], [36.77509, 2.91324], [36.77487, 2.91361], [36.77364, 2.91526], [36.77328, 2.91568], [36.77277, 2.91622], [36.77235, 2.91668], [36.77216, 2.91692], [36.77139, 2.91798], [36.77103, 2.91845], [36.77083, 2.91868], [36.77017, 2.91929], [36.76946, 2.92004], [36.76942, 2.92008], [36.7694, 2.92014], [36.76871, 2.92096], [36.76861, 2.92112], [36.76847, 2.92132], [36.767, 2.92304], [36.76607, 2.92416], [36.76546, 2.92488], [36.76523, 2.92516], [36.76414, 2.92646], [36.7641, 2.9265], [36.76408, 2.92649], [36.76404, 2.9265], [36.76402, 2.92653], [36.76401, 2.92657], [36.76402, 2.92661], [36.76407, 2.92665], [36.76409, 2.92664], [36.76412, 2.92661], [36.76413, 2.92657], [36.76493, 2.92564], [36.76531, 2.92616], [36.76587, 2.92687]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_2b4c8a81e6db1e2b08c8d626802f068a);
+        
+</script>
+</html>

@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dc413320be01eeba9fc0b614a350990c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dc413320be01eeba9fc0b614a350990c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dc413320be01eeba9fc0b614a350990c = L.map(
+                "map_dc413320be01eeba9fc0b614a350990c",
+                {
+                    center: [36.76570719499798, 2.9270671527585206],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_51d30237a3c8051d49177c855afe5cbb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var marker_45987a645efde62b520ee5da5be69819 = L.marker(
+                [36.76570719499798, 2.9270671527585206],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+        var popup_01b9e54cf29250647e6427243e84043c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5366178b412cb23f03ebcdb4317c1351 = $(`<div id="html_5366178b412cb23f03ebcdb4317c1351" style="width: 100.0%; height: 100.0%;">Naftal Direction Generale</div>`)[0];
+                popup_01b9e54cf29250647e6427243e84043c.setContent(html_5366178b412cb23f03ebcdb4317c1351);
+            
+        
+
+        marker_45987a645efde62b520ee5da5be69819.bindPopup(popup_01b9e54cf29250647e6427243e84043c)
+        ;
+
+        
+    
+    
+            var marker_1fe7705cb8e0e699fefe547b08d49c8a = L.marker(
+                [36.7137958, 3.2273653],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_7640e1854bcf669b039468c4a7eb3409 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1fe7705cb8e0e699fefe547b08d49c8a.setIcon(icon_7640e1854bcf669b039468c4a7eb3409);
+        
+    
+        var popup_a1a6fe749d9f54ef8f986793ec62da11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ab39d530187a06876f208d329eff8c3 = $(`<div id="html_5ab39d530187a06876f208d329eff8c3" style="width: 100.0%; height: 100.0%;">Arret 1   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_a1a6fe749d9f54ef8f986793ec62da11.setContent(html_5ab39d530187a06876f208d329eff8c3);
+            
+        
+
+        marker_1fe7705cb8e0e699fefe547b08d49c8a.bindPopup(popup_a1a6fe749d9f54ef8f986793ec62da11)
+        ;
+
+        
+    
+    
+            marker_1fe7705cb8e0e699fefe547b08d49c8a.bindTooltip(
+                `<div>
+                     Dar beida auto route
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37ed357651eda3ae9570816d0930d01d = L.marker(
+                [36.7177931, 3.2251615],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_83e8f35a3a3fc7164b71fde9523d22f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_37ed357651eda3ae9570816d0930d01d.setIcon(icon_83e8f35a3a3fc7164b71fde9523d22f1);
+        
+    
+        var popup_b5381f469c810d6b4dc435345d33cf14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5247203db1d9cc9aef894b8f060fd48 = $(`<div id="html_f5247203db1d9cc9aef894b8f060fd48" style="width: 100.0%; height: 100.0%;">Arret 2   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_b5381f469c810d6b4dc435345d33cf14.setContent(html_f5247203db1d9cc9aef894b8f060fd48);
+            
+        
+
+        marker_37ed357651eda3ae9570816d0930d01d.bindPopup(popup_b5381f469c810d6b4dc435345d33cf14)
+        ;
+
+        
+    
+    
+            marker_37ed357651eda3ae9570816d0930d01d.bindTooltip(
+                `<div>
+                     Pont dar El beida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1aef35fc83d570c695364ae08d2145f8 = L.marker(
+                [36.7281673, 3.2167002],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_3bf8da548368aa4f23a6874edcb4a8a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1aef35fc83d570c695364ae08d2145f8.setIcon(icon_3bf8da548368aa4f23a6874edcb4a8a9);
+        
+    
+        var popup_f7e4052d25d1cdf8776331b51bb2e3bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57e5c7f846fefab193ea99c11029347b = $(`<div id="html_57e5c7f846fefab193ea99c11029347b" style="width: 100.0%; height: 100.0%;">Arret 3   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_f7e4052d25d1cdf8776331b51bb2e3bd.setContent(html_57e5c7f846fefab193ea99c11029347b);
+            
+        
+
+        marker_1aef35fc83d570c695364ae08d2145f8.bindPopup(popup_f7e4052d25d1cdf8776331b51bb2e3bd)
+        ;
+
+        
+    
+    
+            marker_1aef35fc83d570c695364ae08d2145f8.bindTooltip(
+                `<div>
+                     Sntp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8585a7e55e7b918ba46e73c67b1e916c = L.marker(
+                [36.7210441, 3.2005476],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_7bec77f74632be2e719aeefee679ffa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_8585a7e55e7b918ba46e73c67b1e916c.setIcon(icon_7bec77f74632be2e719aeefee679ffa4);
+        
+    
+        var popup_983b844ebfc10974c2c5ced3ab8272ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc5d857dd04b8dd6664018dc462465fc = $(`<div id="html_cc5d857dd04b8dd6664018dc462465fc" style="width: 100.0%; height: 100.0%;">Arret 4   Ligne El hamiz   avec 3 passagers</div>`)[0];
+                popup_983b844ebfc10974c2c5ced3ab8272ec.setContent(html_cc5d857dd04b8dd6664018dc462465fc);
+            
+        
+
+        marker_8585a7e55e7b918ba46e73c67b1e916c.bindPopup(popup_983b844ebfc10974c2c5ced3ab8272ec)
+        ;
+
+        
+    
+    
+            marker_8585a7e55e7b918ba46e73c67b1e916c.bindTooltip(
+                `<div>
+                     Mosalaha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ba77bc4aeeab339e640d95a23d91d85 = L.marker(
+                [36.7205854, 3.2147113],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_a9a9eb75bb65e8403422d0011208ce59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_9ba77bc4aeeab339e640d95a23d91d85.setIcon(icon_a9a9eb75bb65e8403422d0011208ce59);
+        
+    
+        var popup_483450fcadebca67e9df972abdda2130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43515b3a3de4de7c5d3de7ade412a6eb = $(`<div id="html_43515b3a3de4de7c5d3de7ade412a6eb" style="width: 100.0%; height: 100.0%;">Arret 5   Ligne El hamiz   avec 2 passagers</div>`)[0];
+                popup_483450fcadebca67e9df972abdda2130.setContent(html_43515b3a3de4de7c5d3de7ade412a6eb);
+            
+        
+
+        marker_9ba77bc4aeeab339e640d95a23d91d85.bindPopup(popup_483450fcadebca67e9df972abdda2130)
+        ;
+
+        
+    
+    
+            marker_9ba77bc4aeeab339e640d95a23d91d85.bindTooltip(
+                `<div>
+                     Fatma nsoumer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bcbbdcbbb8e938ec204fb6e7f87f21e = L.marker(
+                [36.722176, 3.2105643],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_8eaddb5631e3be7fa8a575d585db194c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_2bcbbdcbbb8e938ec204fb6e7f87f21e.setIcon(icon_8eaddb5631e3be7fa8a575d585db194c);
+        
+    
+        var popup_adc1a28fe975e7be86282a7f306cac7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1350d4b0e0f963e6605baad16ca1d2d0 = $(`<div id="html_1350d4b0e0f963e6605baad16ca1d2d0" style="width: 100.0%; height: 100.0%;">Arret 6   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_adc1a28fe975e7be86282a7f306cac7a.setContent(html_1350d4b0e0f963e6605baad16ca1d2d0);
+            
+        
+
+        marker_2bcbbdcbbb8e938ec204fb6e7f87f21e.bindPopup(popup_adc1a28fe975e7be86282a7f306cac7a)
+        ;
+
+        
+    
+    
+            marker_2bcbbdcbbb8e938ec204fb6e7f87f21e.bindTooltip(
+                `<div>
+                     Poste dar beida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b03847de8e4c4cfb24054125667901a = L.marker(
+                [36.7213322, 3.205333],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_437be03a3072d1d36af530f7936c0750 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_3b03847de8e4c4cfb24054125667901a.setIcon(icon_437be03a3072d1d36af530f7936c0750);
+        
+    
+        var popup_4d7da1f27dc327c69e0185ffb308af08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6576c0470d8d7d7c52423e874e3084b = $(`<div id="html_a6576c0470d8d7d7c52423e874e3084b" style="width: 100.0%; height: 100.0%;">Arret 7   Ligne El hamiz   avec 2 passagers</div>`)[0];
+                popup_4d7da1f27dc327c69e0185ffb308af08.setContent(html_a6576c0470d8d7d7c52423e874e3084b);
+            
+        
+
+        marker_3b03847de8e4c4cfb24054125667901a.bindPopup(popup_4d7da1f27dc327c69e0185ffb308af08)
+        ;
+
+        
+    
+    
+            marker_3b03847de8e4c4cfb24054125667901a.bindTooltip(
+                `<div>
+                     Quatre chemins
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1da2763bab781d6f4239f79fa9a2ec76 = L.marker(
+                [36.7147166, 3.1891492],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_8def058ee91a8e151739e1d5c3dc3fd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1da2763bab781d6f4239f79fa9a2ec76.setIcon(icon_8def058ee91a8e151739e1d5c3dc3fd2);
+        
+    
+        var popup_23b1b0481ac4ffa8aa695fdea2e66e59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec105e6f7a67f3d6c342f73783b45ba8 = $(`<div id="html_ec105e6f7a67f3d6c342f73783b45ba8" style="width: 100.0%; height: 100.0%;">Arret 8   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_23b1b0481ac4ffa8aa695fdea2e66e59.setContent(html_ec105e6f7a67f3d6c342f73783b45ba8);
+            
+        
+
+        marker_1da2763bab781d6f4239f79fa9a2ec76.bindPopup(popup_23b1b0481ac4ffa8aa695fdea2e66e59)
+        ;
+
+        
+    
+    
+            marker_1da2763bab781d6f4239f79fa9a2ec76.bindTooltip(
+                `<div>
+                     Société générale usthb
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76d1d403e2b1fb14735856d93616a49d = L.marker(
+                [36.7190258, 3.1810043],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_fe9ce906085f2a197bab3bf57a35e419 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_76d1d403e2b1fb14735856d93616a49d.setIcon(icon_fe9ce906085f2a197bab3bf57a35e419);
+        
+    
+        var popup_0ff859533d576970d9750d88a1bfc3fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8306fda7b26e0367e09be7598adf9a7e = $(`<div id="html_8306fda7b26e0367e09be7598adf9a7e" style="width: 100.0%; height: 100.0%;">Arret 9   Ligne El hamiz   avec 3 passagers</div>`)[0];
+                popup_0ff859533d576970d9750d88a1bfc3fc.setContent(html_8306fda7b26e0367e09be7598adf9a7e);
+            
+        
+
+        marker_76d1d403e2b1fb14735856d93616a49d.bindPopup(popup_0ff859533d576970d9750d88a1bfc3fc)
+        ;
+
+        
+    
+    
+            marker_76d1d403e2b1fb14735856d93616a49d.bindTooltip(
+                `<div>
+                     Usthb jorf
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c39a8f6879bd9577b1a49cd3608eafa = L.marker(
+                [36.7095919, 3.1656329],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_07a0fe1b4a545d6ecd8d3a122e96faaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_0c39a8f6879bd9577b1a49cd3608eafa.setIcon(icon_07a0fe1b4a545d6ecd8d3a122e96faaf);
+        
+    
+        var popup_d724a437a01f64d3c36088610fd32763 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7736c33c6e34fc8cc4fcd206b2d034b5 = $(`<div id="html_7736c33c6e34fc8cc4fcd206b2d034b5" style="width: 100.0%; height: 100.0%;">Arret 10   Ligne El hamiz   avec 3 passagers</div>`)[0];
+                popup_d724a437a01f64d3c36088610fd32763.setContent(html_7736c33c6e34fc8cc4fcd206b2d034b5);
+            
+        
+
+        marker_0c39a8f6879bd9577b1a49cd3608eafa.bindPopup(popup_d724a437a01f64d3c36088610fd32763)
+        ;
+
+        
+    
+    
+            marker_0c39a8f6879bd9577b1a49cd3608eafa.bindTooltip(
+                `<div>
+                     Oued smar
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4c53c7ab3dff34ff0736c066e765f9c = L.marker(
+                [36.7095432, 3.1626537],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_4f1dbcf1dc20a9914712410fed8bf6eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_e4c53c7ab3dff34ff0736c066e765f9c.setIcon(icon_4f1dbcf1dc20a9914712410fed8bf6eb);
+        
+    
+        var popup_2a6847c00e7a0f18117e1ddce8ff8e3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb1192b69fcd65b04b928445d3e11aed = $(`<div id="html_cb1192b69fcd65b04b928445d3e11aed" style="width: 100.0%; height: 100.0%;">Arret 11   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_2a6847c00e7a0f18117e1ddce8ff8e3b.setContent(html_cb1192b69fcd65b04b928445d3e11aed);
+            
+        
+
+        marker_e4c53c7ab3dff34ff0736c066e765f9c.bindPopup(popup_2a6847c00e7a0f18117e1ddce8ff8e3b)
+        ;
+
+        
+    
+    
+            marker_e4c53c7ab3dff34ff0736c066e765f9c.bindTooltip(
+                `<div>
+                     Ecole mousssaoui
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b29d78c573031d7145b8ea6b302b550 = L.marker(
+                [36.7101611, 3.1583018],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_6c5c7942505d10fa4b990f673bc67956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_8b29d78c573031d7145b8ea6b302b550.setIcon(icon_6c5c7942505d10fa4b990f673bc67956);
+        
+    
+        var popup_fd2241b8c469c1b74aa3ad08281435a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7963b0301532c08ef9fd1e689dee5d52 = $(`<div id="html_7963b0301532c08ef9fd1e689dee5d52" style="width: 100.0%; height: 100.0%;">Arret 12   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_fd2241b8c469c1b74aa3ad08281435a0.setContent(html_7963b0301532c08ef9fd1e689dee5d52);
+            
+        
+
+        marker_8b29d78c573031d7145b8ea6b302b550.bindPopup(popup_fd2241b8c469c1b74aa3ad08281435a0)
+        ;
+
+        
+    
+    
+            marker_8b29d78c573031d7145b8ea6b302b550.bindTooltip(
+                `<div>
+                     Lycée birouni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1eff37cc583f1c99c3ec1abf5fd213c = L.marker(
+                [36.7144336, 3.1519698],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_ffe85809ae81b4f43efd1ddcc5f1c105 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_a1eff37cc583f1c99c3ec1abf5fd213c.setIcon(icon_ffe85809ae81b4f43efd1ddcc5f1c105);
+        
+    
+        var popup_3209dc3014828128d4db01fc07093c4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1fc785e8541badea125dc154f21e724 = $(`<div id="html_c1fc785e8541badea125dc154f21e724" style="width: 100.0%; height: 100.0%;">Arret 13   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_3209dc3014828128d4db01fc07093c4e.setContent(html_c1fc785e8541badea125dc154f21e724);
+            
+        
+
+        marker_a1eff37cc583f1c99c3ec1abf5fd213c.bindPopup(popup_3209dc3014828128d4db01fc07093c4e)
+        ;
+
+        
+    
+    
+            marker_a1eff37cc583f1c99c3ec1abf5fd213c.bindTooltip(
+                `<div>
+                     Arrêt pharmacie
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_567d09e78fa037c6c138873dbd7a9de8 = L.marker(
+                [36.7210876, 3.1465091],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_6d0cb116ad5c69ab60c85f3d84999654 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_567d09e78fa037c6c138873dbd7a9de8.setIcon(icon_6d0cb116ad5c69ab60c85f3d84999654);
+        
+    
+        var popup_978da79a1f5dff6400286499735fe11f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76b521320e84418f94bc00a985420b67 = $(`<div id="html_76b521320e84418f94bc00a985420b67" style="width: 100.0%; height: 100.0%;">Arret 14   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_978da79a1f5dff6400286499735fe11f.setContent(html_76b521320e84418f94bc00a985420b67);
+            
+        
+
+        marker_567d09e78fa037c6c138873dbd7a9de8.bindPopup(popup_978da79a1f5dff6400286499735fe11f)
+        ;
+
+        
+    
+    
+            marker_567d09e78fa037c6c138873dbd7a9de8.bindTooltip(
+                `<div>
+                     Belfort
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9860f5f3c297c5258e95a5f9286bdd87 = L.marker(
+                [36.7191242, 3.1383542],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_ff2284719515a1d63bb8c46139109420 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_9860f5f3c297c5258e95a5f9286bdd87.setIcon(icon_ff2284719515a1d63bb8c46139109420);
+        
+    
+        var popup_50d69ac27e03bd2c9e1f1dba623011e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3475e147c46568b46f1a4c7b391f695d = $(`<div id="html_3475e147c46568b46f1a4c7b391f695d" style="width: 100.0%; height: 100.0%;">Arret 15   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_50d69ac27e03bd2c9e1f1dba623011e5.setContent(html_3475e147c46568b46f1a4c7b391f695d);
+            
+        
+
+        marker_9860f5f3c297c5258e95a5f9286bdd87.bindPopup(popup_50d69ac27e03bd2c9e1f1dba623011e5)
+        ;
+
+        
+    
+    
+            marker_9860f5f3c297c5258e95a5f9286bdd87.bindTooltip(
+                `<div>
+                     Rue des cordonniers
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d39ecaf7423825e8a4dd6073b629603f = L.marker(
+                [36.716793, 3.1368629],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_e18a291ce0fea14bc66894d8c711518d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_d39ecaf7423825e8a4dd6073b629603f.setIcon(icon_e18a291ce0fea14bc66894d8c711518d);
+        
+    
+        var popup_97da6e300f5e2741633c66f0b7f01a76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2066cbdf1512217d1f7d81385f7a6cb = $(`<div id="html_f2066cbdf1512217d1f7d81385f7a6cb" style="width: 100.0%; height: 100.0%;">Arret 16   Ligne El hamiz   avec 1 passagers</div>`)[0];
+                popup_97da6e300f5e2741633c66f0b7f01a76.setContent(html_f2066cbdf1512217d1f7d81385f7a6cb);
+            
+        
+
+        marker_d39ecaf7423825e8a4dd6073b629603f.bindPopup(popup_97da6e300f5e2741633c66f0b7f01a76)
+        ;
+
+        
+    
+    
+            marker_d39ecaf7423825e8a4dd6073b629603f.bindTooltip(
+                `<div>
+                     Boucherie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fed10ffb75609396e8a06706a09c6fcf = L.marker(
+                [36.7105192, 3.1317127],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_6854509a28ae83349e7df57dfb59e6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_fed10ffb75609396e8a06706a09c6fcf.setIcon(icon_6854509a28ae83349e7df57dfb59e6f9);
+        
+    
+        var popup_3bf2c8bf43bb6a486120000b0c4e1b41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc3793e36189ad3fa130b016954b4e05 = $(`<div id="html_fc3793e36189ad3fa130b016954b4e05" style="width: 100.0%; height: 100.0%;">Arret 17   Ligne El hamiz   avec 2 passagers</div>`)[0];
+                popup_3bf2c8bf43bb6a486120000b0c4e1b41.setContent(html_fc3793e36189ad3fa130b016954b4e05);
+            
+        
+
+        marker_fed10ffb75609396e8a06706a09c6fcf.bindPopup(popup_3bf2c8bf43bb6a486120000b0c4e1b41)
+        ;
+
+        
+    
+    
+            marker_fed10ffb75609396e8a06706a09c6fcf.bindTooltip(
+                `<div>
+                     Dépôt
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a53eea5a89bba35879d1c478ec45fc7 = L.marker(
+                [36.7065478, 3.1278108],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_49ccf383266a54add2c52a87ef01ad34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_7a53eea5a89bba35879d1c478ec45fc7.setIcon(icon_49ccf383266a54add2c52a87ef01ad34);
+        
+    
+        var popup_a2c3890543e938b218ccfc6f8b7b444a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_479cc789e6c564b7f781cb5c8aaab335 = $(`<div id="html_479cc789e6c564b7f781cb5c8aaab335" style="width: 100.0%; height: 100.0%;">Arret 18   Ligne El hamiz   avec 2 passagers</div>`)[0];
+                popup_a2c3890543e938b218ccfc6f8b7b444a.setContent(html_479cc789e6c564b7f781cb5c8aaab335);
+            
+        
+
+        marker_7a53eea5a89bba35879d1c478ec45fc7.bindPopup(popup_a2c3890543e938b218ccfc6f8b7b444a)
+        ;
+
+        
+    
+    
+            marker_7a53eea5a89bba35879d1c478ec45fc7.bindTooltip(
+                `<div>
+                     commissariat
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16a9c6a489ed416f70d6f421b3e1a029 = L.marker(
+                [36.7043176, 3.1255332],
+                {}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+    
+            var icon_cad3c903ddd1aed4cf15a112b4c1947f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_16a9c6a489ed416f70d6f421b3e1a029.setIcon(icon_cad3c903ddd1aed4cf15a112b4c1947f);
+        
+    
+        var popup_9160adf658244f29d53b09fee0f3ef11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c78ce07debdd91a1460be01d90dbb16b = $(`<div id="html_c78ce07debdd91a1460be01d90dbb16b" style="width: 100.0%; height: 100.0%;">Arret 19   Ligne El hamiz   avec 2 passagers</div>`)[0];
+                popup_9160adf658244f29d53b09fee0f3ef11.setContent(html_c78ce07debdd91a1460be01d90dbb16b);
+            
+        
+
+        marker_16a9c6a489ed416f70d6f421b3e1a029.bindPopup(popup_9160adf658244f29d53b09fee0f3ef11)
+        ;
+
+        
+    
+    
+            marker_16a9c6a489ed416f70d6f421b3e1a029.bindTooltip(
+                `<div>
+                     Hôpital zemirli
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f96b5f7a2c7414c1e099ca5ae81de644 = L.polyline(
+                [[36.71376, 3.22733], [36.71378, 3.22729], [36.7139, 3.22733], [36.714, 3.22735], [36.7141, 3.22747], [36.71412, 3.23168], [36.71413, 3.23264], [36.71418, 3.23365], [36.71425, 3.23434], [36.71435, 3.23516], [36.71466, 3.23684], [36.71482, 3.23752], [36.71521, 3.23875], [36.71589, 3.24067], [36.71618, 3.2415], [36.71649, 3.24235], [36.71665, 3.243], [36.71674, 3.24363], [36.71678, 3.24399], [36.71677, 3.24434], [36.71668, 3.24534], [36.71667, 3.24567], [36.71666, 3.24617], [36.71669, 3.24639], [36.71674, 3.24666], [36.7168, 3.2469], [36.71701, 3.24744], [36.71708, 3.24759], [36.71719, 3.24777], [36.71742, 3.24805], [36.71779, 3.24846], [36.71839, 3.2491], [36.71883, 3.24957], [36.71901, 3.24981], [36.71917, 3.25003], [36.71931, 3.25031], [36.71943, 3.25052], [36.71952, 3.25075], [36.71961, 3.25105], [36.71973, 3.25153], [36.71989, 3.25235], [36.71996, 3.25277], [36.72002, 3.25332], [36.72007, 3.25405], [36.72001, 3.25453], [36.71996, 3.25477], [36.71989, 3.25491], [36.71977, 3.25503], [36.71955, 3.2551], [36.71935, 3.25507], [36.71923, 3.25498], [36.71912, 3.2548], [36.71904, 3.2546], [36.719, 3.25442], [36.719, 3.2543], [36.719, 3.25405], [36.71909, 3.25382], [36.71929, 3.25356], [36.71985, 3.25318], [36.72028, 3.2529], [36.72064, 3.25266], [36.72085, 3.25262], [36.72095, 3.25265], [36.72104, 3.25271], [36.72112, 3.25284], [36.72117, 3.25305], [36.72121, 3.25327], [36.72121, 3.25348], [36.72118, 3.25368], [36.72109, 3.2539], [36.72093, 3.25402], [36.72075, 3.25407], [36.72061, 3.25407], [36.7205, 3.25402], [36.72035, 3.25386], [36.72027, 3.2537], [36.72014, 3.25321], [36.72004, 3.25236], [36.71989, 3.25153], [36.71976, 3.25101], [36.71963, 3.25059], [36.71925, 3.24943], [36.71879, 3.24814], [36.71808, 3.24607], [36.71757, 3.2447], [36.71638, 3.2414], [36.71609, 3.24059], [36.71583, 3.2399], [36.71573, 3.23962], [36.71556, 3.23915], [36.71519, 3.23803], [36.71486, 3.23694], [36.71468, 3.23616], [36.71451, 3.23521], [36.71438, 3.23429], [36.71427, 3.23261], [36.71427, 3.22887], [36.71438, 3.22825], [36.71454, 3.22764], [36.71478, 3.22705], [36.71503, 3.22666], [36.71529, 3.22636], [36.71575, 3.22596], [36.71627, 3.22567], [36.71692, 3.22541], [36.71744, 3.22524], [36.71778, 3.22511], [36.71872, 3.22478], [36.71933, 3.22456], [36.72029, 3.22422], [36.72094, 3.22392], [36.72134, 3.22367], [36.72165, 3.22346], [36.72227, 3.22293], [36.72267, 3.22251], [36.72292, 3.22222], [36.72339, 3.22154], [36.72354, 3.2213], [36.72373, 3.22095], [36.72391, 3.22055], [36.72407, 3.22052], [36.72419, 3.22056], [36.72444, 3.22074], [36.72495, 3.22129], [36.72561, 3.22189], [36.72563, 3.22171], [36.7257, 3.22127], [36.72571, 3.22122], [36.72578, 3.22082], [36.72579, 3.22079], [36.72586, 3.22038], [36.72583, 3.22029], [36.7257, 3.21981], [36.72569, 3.21934], [36.7257, 3.21892], [36.72576, 3.21765], [36.72579, 3.21751], [36.72585, 3.21745], [36.72609, 3.21742], [36.72633, 3.2174], [36.72701, 3.21732], [36.72782, 3.21724], [36.72807, 3.21714], [36.7282, 3.21711], [36.72823, 3.21706], [36.72823, 3.21695], [36.72816, 3.21671], [36.72814, 3.21667], [36.72812, 3.21621], [36.72809, 3.21611], [36.72805, 3.21605], [36.72799, 3.21574], [36.7279, 3.21491], [36.72788, 3.21477], [36.72753, 3.2119], [36.7274, 3.21087], [36.72704, 3.20809], [36.72684, 3.20662], [36.72679, 3.20624], [36.72675, 3.20586], [36.72665, 3.20509], [36.72599, 3.2], [36.72586, 3.19914], [36.72546, 3.19731], [36.72544, 3.19717], [36.72536, 3.1965], [36.72534, 3.19615], [36.72542, 3.19577], [36.72549, 3.19563], [36.72559, 3.19552], [36.72571, 3.19545], [36.72583, 3.19542], [36.72596, 3.19543], [36.7261, 3.19551], [36.72621, 3.19562], [36.72628, 3.19576], [36.72632, 3.19592], [36.72632, 3.1961], [36.72626, 3.19632], [36.72617, 3.19646], [36.72606, 3.19655], [36.72592, 3.1966], [36.72546, 3.19668], [36.72472, 3.1968], [36.72428, 3.19695], [36.72404, 3.19707], [36.72364, 3.19734], [36.7233, 3.19763], [36.72296, 3.19797], [36.72284, 3.19814], [36.72251, 3.1986], [36.72188, 3.19951], [36.72109, 3.2006], [36.72039, 3.20156], [36.72031, 3.20168], [36.72021, 3.20181], [36.7201, 3.20201], [36.71991, 3.20228], [36.71968, 3.20259], [36.71914, 3.20333], [36.7188, 3.20373], [36.71863, 3.20388], [36.71827, 3.20417], [36.71804, 3.20431], [36.71783, 3.20437], [36.71757, 3.20436], [36.71737, 3.20414], [36.71723, 3.20362], [36.71716, 3.20333], [36.71711, 3.20291], [36.71713, 3.2027], [36.71724, 3.20236], [36.71733, 3.20228], [36.71753, 3.20221], [36.71893, 3.20326], [36.71936, 3.20363], [36.71963, 3.20385], [36.71972, 3.20397], [36.71977, 3.20407], [36.7198, 3.20426], [36.7198, 3.20436], [36.71974, 3.20457], [36.71965, 3.20466], [36.71956, 3.20473], [36.71945, 3.20477], [36.71934, 3.20477], [36.71917, 3.20471], [36.71889, 3.20443], [36.71873, 3.20431], [36.71865, 3.20429], [36.7186, 3.20432], [36.71849, 3.20448], [36.71837, 3.20466], [36.71813, 3.20498], [36.71803, 3.20513], [36.718, 3.20518], [36.71734, 3.20613], [36.71783, 3.20668], [36.7179, 3.2068], [36.71799, 3.20709], [36.71803, 3.20738], [36.71812, 3.20837], [36.71816, 3.20878], [36.71817, 3.20889], [36.7182, 3.20912], [36.71835, 3.20964], [36.71843, 3.20988], [36.71849, 3.21004], [36.71866, 3.21055], [36.719, 3.21165], [36.71904, 3.2118], [36.71941, 3.21297], [36.71965, 3.21364], [36.71984, 3.2141], [36.72014, 3.21401], [36.72019, 3.21404], [36.72037, 3.21481], [36.72059, 3.21473], [36.72037, 3.21481], [36.72019, 3.21404], [36.72014, 3.21401], [36.71984, 3.2141], [36.71965, 3.21364], [36.71941, 3.21297], [36.71904, 3.2118], [36.72055, 3.21135], [36.72092, 3.21125], [36.72115, 3.21118], [36.72169, 3.21103], [36.72222, 3.21088], [36.72218, 3.21056], [36.72217, 3.21051], [36.72212, 3.21015], [36.72206, 3.20979], [36.72201, 3.20942], [36.72197, 3.20915], [36.72196, 3.20907], [36.7219, 3.20869], [36.72182, 3.20818], [36.72161, 3.20699], [36.72157, 3.20677], [36.72155, 3.20665], [36.72149, 3.20625], [36.72138, 3.20553], [36.72135, 3.20533], [36.72123, 3.20448], [36.72119, 3.20418], [36.72118, 3.20411], [36.721, 3.20286], [36.72085, 3.20177], [36.72084, 3.2017], [36.72079, 3.2013], [36.72131, 3.20058], [36.722, 3.19962], [36.72214, 3.19942], [36.72261, 3.19876], [36.72312, 3.19802], [36.72322, 3.19791], [36.72348, 3.19765], [36.7237, 3.19746], [36.72415, 3.19719], [36.72444, 3.19707], [36.72474, 3.19699], [36.72556, 3.19685], [36.72616, 3.19688], [36.72633, 3.1969], [36.72648, 3.19698], [36.72655, 3.19707], [36.72663, 3.19723], [36.72664, 3.19734], [36.72662, 3.19755], [36.72654, 3.19771], [36.72648, 3.19778], [36.72629, 3.19785], [36.72616, 3.19787], [36.72592, 3.19785], [36.72581, 3.19783], [36.72574, 3.1978], [36.72566, 3.19774], [36.72561, 3.19767], [36.72546, 3.19731], [36.72544, 3.19717], [36.72536, 3.1965], [36.72534, 3.19615], [36.72536, 3.19526], [36.72538, 3.19501], [36.72546, 3.19438], [36.7256, 3.19348], [36.72564, 3.19319], [36.72571, 3.19281], [36.72575, 3.19254], [36.72601, 3.19091], [36.72607, 3.19045], [36.72609, 3.19028], [36.72617, 3.18928], [36.72626, 3.18731], [36.72626, 3.18685], [36.72623, 3.18604], [36.72595, 3.18315], [36.72594, 3.18305], [36.72593, 3.18293], [36.72588, 3.18249], [36.72584, 3.18207], [36.7258, 3.18142], [36.72575, 3.18095], [36.72581, 3.18056], [36.72548, 3.17706], [36.72545, 3.17686], [36.72546, 3.17673], [36.72546, 3.17672], [36.7255, 3.17662], [36.7255, 3.17651], [36.72546, 3.17642], [36.72541, 3.17638], [36.72532, 3.17636], [36.72522, 3.17637], [36.7251, 3.17642], [36.72501, 3.1765], [36.72462, 3.17677], [36.72379, 3.1774], [36.72195, 3.17871], [36.7215, 3.17904], [36.71996, 3.1801], [36.71983, 3.18021], [36.7197, 3.18033], [36.71962, 3.18046], [36.71927, 3.18103], [36.71916, 3.1812], [36.71911, 3.18126], [36.7191, 3.18135], [36.71908, 3.18145], [36.71902, 3.18161], [36.71896, 3.18175], [36.71627, 3.1863], [36.71616, 3.18649], [36.7146, 3.1891], [36.71446, 3.18933], [36.7144, 3.18944], [36.71431, 3.1896], [36.71417, 3.18979], [36.71373, 3.19018], [36.71319, 3.19072], [36.71311, 3.19083], [36.71311, 3.19093], [36.71312, 3.19097], [36.71317, 3.19102], [36.71324, 3.19104], [36.71331, 3.19099], [36.71341, 3.19082], [36.71356, 3.19058], [36.71366, 3.19046], [36.71374, 3.19037], [36.71396, 3.19016], [36.71422, 3.18993], [36.71431, 3.18981], [36.71471, 3.18914], [36.71507, 3.18852], [36.71616, 3.18672], [36.71737, 3.18467], [36.71773, 3.18405], [36.71847, 3.1828], [36.71912, 3.18161], [36.7192, 3.18147], [36.71926, 3.18139], [36.71928, 3.1813], [36.71925, 3.18122], [36.71921, 3.1812], [36.71916, 3.1812], [36.71903, 3.18107], [36.719, 3.18103], [36.71831, 3.18012], [36.71717, 3.1787], [36.71568, 3.17685], [36.71567, 3.17683], [36.71563, 3.17679], [36.7146, 3.17545], [36.71455, 3.1754], [36.71421, 3.17494], [36.71372, 3.1743], [36.71267, 3.17291], [36.71247, 3.17261], [36.71221, 3.17214], [36.71146, 3.1706], [36.71136, 3.1704], [36.71066, 3.16897], [36.71079, 3.16882], [36.71075, 3.16876], [36.71071, 3.16866], [36.71054, 3.16803], [36.71039, 3.16774], [36.71035, 3.16763], [36.70999, 3.16643], [36.70993, 3.16634], [36.70982, 3.16622], [36.70946, 3.16604], [36.70962, 3.16565], [36.70963, 3.16562], [36.71009, 3.16459], [36.71004, 3.16446], [36.70974, 3.16334], [36.70968, 3.16308], [36.70957, 3.16264], [36.70955, 3.16257], [36.70963, 3.1624], [36.70866, 3.16178], [36.70911, 3.16074], [36.70957, 3.15968], [36.70987, 3.15901], [36.71093, 3.15982], [36.71099, 3.15977], [36.71092, 3.15822], [36.71093, 3.15799], [36.7113, 3.15686], [36.7107, 3.15657], [36.71063, 3.1568], [36.71031, 3.15772], [36.71013, 3.15829], [36.71031, 3.15772], [36.71063, 3.1568], [36.7107, 3.15657], [36.71075, 3.15642], [36.71104, 3.15554], [36.71132, 3.15466], [36.7115, 3.15427], [36.71176, 3.15382], [36.71212, 3.15343], [36.71236, 3.15323], [36.71267, 3.15307], [36.71311, 3.153], [36.71389, 3.15275], [36.71414, 3.15245], [36.7144, 3.15195], [36.71553, 3.14981], [36.71575, 3.1494], [36.71588, 3.14916], [36.71611, 3.14873], [36.71669, 3.148], [36.71701, 3.14761], [36.71705, 3.14756], [36.71706, 3.14754], [36.71746, 3.14618], [36.71754, 3.146], [36.71784, 3.14475], [36.71926, 3.14564], [36.72004, 3.14613], [36.72081, 3.14662], [36.72105, 3.14668], [36.72109, 3.14651], [36.72117, 3.14619], [36.72121, 3.14616], [36.72152, 3.1462], [36.72172, 3.1462], [36.7214, 3.1455], [36.72124, 3.1452], [36.72103, 3.14493], [36.72054, 3.14432], [36.72, 3.14376], [36.71903, 3.14276], [36.7189, 3.14252], [36.71884, 3.14232], [36.71885, 3.14209], [36.71915, 3.14082], [36.71917, 3.1407], [36.71932, 3.14003], [36.7194, 3.13969], [36.71954, 3.13945], [36.71995, 3.13884], [36.7197, 3.13888], [36.71945, 3.13881], [36.71925, 3.13868], [36.71913, 3.1384], [36.71911, 3.13836], [36.71905, 3.13823], [36.7189, 3.13795], [36.71881, 3.13782], [36.71861, 3.1376], [36.7184, 3.13747], [36.71824, 3.1374], [36.71815, 3.13738], [36.71736, 3.13705], [36.71697, 3.13694], [36.71679, 3.13692], [36.7165, 3.13689], [36.71641, 3.1369], [36.71582, 3.13689], [36.71556, 3.13689], [36.71487, 3.13688], [36.71472, 3.1368], [36.71456, 3.13674], [36.71446, 3.13671], [36.71433, 3.13656], [36.71425, 3.13645], [36.71416, 3.13623], [36.71388, 3.13541], [36.71375, 3.13513], [36.71359, 3.13485], [36.71351, 3.13473], [36.71326, 3.13445], [36.71234, 3.13354], [36.71175, 3.13299], [36.7116, 3.13284], [36.71157, 3.13281], [36.7105, 3.13175], [36.71045, 3.1317], [36.71013, 3.13137], [36.70946, 3.13066], [36.70903, 3.13025], [36.70879, 3.13001], [36.70867, 3.12988], [36.70791, 3.12911], [36.70707, 3.12828], [36.70666, 3.12788], [36.70656, 3.12779], [36.70467, 3.12592], [36.70459, 3.12585], [36.7043, 3.12556], [36.70398, 3.12523], [36.70376, 3.125], [36.7033, 3.12462], [36.70309, 3.12448], [36.70237, 3.12409], [36.70165, 3.12358], [36.70139, 3.12333], [36.70069, 3.12254], [36.70033, 3.12207], [36.70002, 3.12165], [36.69991, 3.12134], [36.69988, 3.12115], [36.69988, 3.12101], [36.69991, 3.12077], [36.69998, 3.12059], [36.70002, 3.12044], [36.70001, 3.12013], [36.69996, 3.11988], [36.69996, 3.11961], [36.7, 3.11947], [36.70021, 3.119], [36.70037, 3.11882], [36.70117, 3.1179], [36.70259, 3.11631], [36.70426, 3.11447], [36.70613, 3.11233], [36.70657, 3.11175], [36.70681, 3.11141], [36.70724, 3.11073], [36.70762, 3.11007], [36.70797, 3.10934], [36.70843, 3.10821], [36.70878, 3.10713], [36.70897, 3.10639], [36.70915, 3.10548], [36.70939, 3.1035], [36.70962, 3.10183], [36.70977, 3.10106], [36.70993, 3.10046], [36.71015, 3.09975], [36.71033, 3.09928], [36.71081, 3.09811], [36.71155, 3.09639], [36.71176, 3.09583], [36.71193, 3.09532], [36.71247, 3.09347], [36.71428, 3.08681], [36.71457, 3.0859], [36.71478, 3.08529], [36.71489, 3.08489], [36.71516, 3.08419], [36.71593, 3.08282], [36.71654, 3.08183], [36.71698, 3.08117], [36.71733, 3.08059], [36.71778, 3.07975], [36.71807, 3.07909], [36.71856, 3.07774], [36.71883, 3.07686], [36.71891, 3.07643], [36.71928, 3.07418], [36.71957, 3.07279], [36.71973, 3.07218], [36.71997, 3.07147], [36.72018, 3.07088], [36.72095, 3.06922], [36.72118, 3.0688], [36.72177, 3.0679], [36.72237, 3.06721], [36.72364, 3.06583], [36.72434, 3.06524], [36.72572, 3.06423], [36.72923, 3.06149], [36.72973, 3.06108], [36.73012, 3.06074], [36.7303, 3.06054], [36.73056, 3.06023], [36.73084, 3.05983], [36.73122, 3.0591], [36.73157, 3.05835], [36.73172, 3.0579], [36.7319, 3.05714], [36.73197, 3.05663], [36.73203, 3.05578], [36.73208, 3.05427], [36.73216, 3.05248], [36.73222, 3.05156], [36.73234, 3.05008], [36.73241, 3.04942], [36.7326, 3.04786], [36.73271, 3.04677], [36.73287, 3.04596], [36.73296, 3.04565], [36.7331, 3.0452], [36.73342, 3.04426], [36.73374, 3.04316], [36.7339, 3.04255], [36.73398, 3.04201], [36.73403, 3.04139], [36.73403, 3.04119], [36.73402, 3.04035], [36.73398, 3.03936], [36.7339, 3.03757], [36.73389, 3.03667], [36.73388, 3.03589], [36.73389, 3.03524], [36.7339, 3.03486], [36.73395, 3.03413], [36.73404, 3.03346], [36.7342, 3.03251], [36.73426, 3.03226], [36.73441, 3.03174], [36.73455, 3.03127], [36.73485, 3.03051], [36.73496, 3.03025], [36.73526, 3.02964], [36.73562, 3.02901], [36.73636, 3.02789], [36.73665, 3.02747], [36.73712, 3.02679], [36.73765, 3.0262], [36.73801, 3.02588], [36.73842, 3.02562], [36.73873, 3.02547], [36.73921, 3.02532], [36.73968, 3.02524], [36.74007, 3.02525], [36.74031, 3.02528], [36.74077, 3.02541], [36.74137, 3.02562], [36.74261, 3.02596], [36.74314, 3.02606], [36.74384, 3.02615], [36.74422, 3.02618], [36.74478, 3.0262], [36.74558, 3.02618], [36.74673, 3.02603], [36.74751, 3.02588], [36.74821, 3.02568], [36.74868, 3.02546], [36.74903, 3.02527], [36.74987, 3.02473], [36.75043, 3.02429], [36.75084, 3.02392], [36.75113, 3.02362], [36.75142, 3.02334], [36.75173, 3.02297], [36.75205, 3.02247], [36.75222, 3.02214], [36.75242, 3.02165], [36.75256, 3.02117], [36.75266, 3.02068], [36.75274, 3.02017], [36.75276, 3.01996], [36.75277, 3.01964], [36.75273, 3.01898], [36.7527, 3.01876], [36.75264, 3.01852], [36.75248, 3.01798], [36.75234, 3.01752], [36.75202, 3.01665], [36.75177, 3.01575], [36.75174, 3.01561], [36.75167, 3.0152], [36.75163, 3.01461], [36.75165, 3.01395], [36.75173, 3.01306], [36.75192, 3.0121], [36.75212, 3.01116], [36.75228, 3.01019], [36.75235, 3.00951], [36.75237, 3.00881], [36.75236, 3.00848], [36.75233, 3.00814], [36.75208, 3.00689], [36.75162, 3.00472], [36.75144, 3.00414], [36.75126, 3.0037], [36.75111, 3.00346], [36.75094, 3.00323], [36.75056, 3.0029], [36.75004, 3.00256], [36.74972, 3.00229], [36.74944, 3.00195], [36.74928, 3.0016], [36.74912, 3.00107], [36.74909, 3.00088], [36.74908, 3.00055], [36.74911, 3.00022], [36.74915, 2.99994], [36.74931, 2.9992], [36.74945, 2.99841], [36.74954, 2.9976], [36.74957, 2.99687], [36.74958, 2.99547], [36.74953, 2.99481], [36.74944, 2.994], [36.74927, 2.99328], [36.74913, 2.99276], [36.74896, 2.99222], [36.74861, 2.99125], [36.74836, 2.99068], [36.7481, 2.9902], [36.74777, 2.98964], [36.74733, 2.98892], [36.74667, 2.98792], [36.74613, 2.98698], [36.74587, 2.98649], [36.74564, 2.98601], [36.74541, 2.98544], [36.74524, 2.98493], [36.74502, 2.9842], [36.74475, 2.98294], [36.74465, 2.98224], [36.7446, 2.98145], [36.74461, 2.9807], [36.74464, 2.98005], [36.74469, 2.97921], [36.74478, 2.97834], [36.74492, 2.97752], [36.74506, 2.97688], [36.74517, 2.97612], [36.74526, 2.97541], [36.74533, 2.97435], [36.74532, 2.97317], [36.74519, 2.97047], [36.7453, 2.9662], [36.74544, 2.9637], [36.74561, 2.96206], [36.74583, 2.96014], [36.74605, 2.95852], [36.74692, 2.95326], [36.74726, 2.95135], [36.7475, 2.94986], [36.74835, 2.94476], [36.7489, 2.94134], [36.74913, 2.94006], [36.74925, 2.93967], [36.74936, 2.93948], [36.74946, 2.93938], [36.74963, 2.93926], [36.74983, 2.9392], [36.75004, 2.93921], [36.75024, 2.93933], [36.75048, 2.93957], [36.75071, 2.93993], [36.75272, 2.94325], [36.75294, 2.94362], [36.75312, 2.94401], [36.75312, 2.94402], [36.75316, 2.9441], [36.7532, 2.94414], [36.75323, 2.94415], [36.7533, 2.94413], [36.75335, 2.94408], [36.75336, 2.94404], [36.75336, 2.94395], [36.75342, 2.94375], [36.75345, 2.94348], [36.75346, 2.94124], [36.75348, 2.9407], [36.75352, 2.94041], [36.75362, 2.93994], [36.75383, 2.93936], [36.75388, 2.93928], [36.75388, 2.93918], [36.75402, 2.93887], [36.75427, 2.93842], [36.75448, 2.93812], [36.756, 2.93623], [36.75621, 2.93598], [36.75659, 2.93553], [36.75769, 2.93432], [36.75887, 2.93299], [36.75919, 2.93262], [36.76015, 2.93142], [36.76202, 2.9291], [36.76276, 2.92825], [36.76282, 2.92817], [36.7639, 2.92687], [36.76409, 2.92664], [36.76412, 2.92661], [36.76413, 2.92657], [36.76493, 2.92564], [36.76531, 2.92616], [36.76587, 2.92687]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dc413320be01eeba9fc0b614a350990c);
+        
+</script>
+</html>
