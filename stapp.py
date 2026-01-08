@@ -88,7 +88,7 @@ def data_res():
     # title
     st.title('Récolte de données')
     # get naftal image from github
-    image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app//main/images/naftal.png'
+    image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/main/images/naftal.png'
     image_data = fetch_image_from_github(image_url, token)
     column1, column2, column3= st.columns(3)
     with column1:
