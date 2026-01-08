@@ -340,7 +340,7 @@ def maps():
                 , 'Ain beniane 2':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Ain%20beniane%202.html"
                 , 'Bouinane':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bouinane.html"
                 ,'Sidi abdellah':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Sidi%20abdellah.html"
-                , 'Zeralda':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Zeralda.html
+                , 'Zeralda':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Zeralda.html"
                 , 'Khmiss el khechna ':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Khmiss%20el%20khechna%20.html"
                 , 'Bouzereah 1':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bouzereah%201.html"
                 ,'Bouzereah 2':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bouzereah%202.html"
