@@ -1,0 +1,667 @@
+,,,,,,,,,,,,,,,
+,Points de Ramassage ,,Localisation Coordonnées GPS,,,n min,n max,temps d'arrivée,temps de départ,Population,Ligne,Remarque,,Code,Signification
+,Oued romane fleuriste,,"36,7422417, 2,9948409",,,0,1,7h15,7h15,,Oued romane, ,,G,Gendarme
+,Arrêt de bus sahraoui,,"36,7461768, 2,9978604",,,6,6,7h20,7h20,,Oued romane, ,,S,Stagiaire
+,Rond point ain allah,,"36,7507444, 2,9930777",,,3,3,7h25,7h25,,Oued romane, ,,M,Personnel de ménage
+,Bois des cars,,"36,7542342, 2,9808777",,,2,3,7h27,7h27,S1,Oued romane, ,,P,Personnel du ministere de l'industrie pharmaceutique
+,Intersection,,"36,7541839, 2,9728183",,,1,1,7h29,7h29,,Oued romane, ,,E,Enfants de creche
+,Quds,,"36,7591638, 2,9632784",,,2,3,7h31,7h31,,Oued romane, ,,V,Personnel véhiculé
+,Tribunal,,"36,7586221, 2,9597311",,,2,2,7h33,7h33,,Oued romane, ,,B,Personnel de la banque
+,Ammara,,"36,7572202, 2,9535031",,,1,1,7h35,7h35,,Oued romane, ,,C ,Personnel de la cantine
+,CFPA,,"36,7616388, 2,9524634",,,1,2,7h37,7h37,S1,Oued romane, ,,A,Apprenti
+,Cimetière garidi,,"36,7255707, 3,0714411",,,2,3,7h00,7h00,"G1, S1",Lot michel, ,,N,Missionnaire
+,Rond point jolie vue,,"36,7221314, 3,0791431",,,2,3,7h05,7h05,G1 ,Lot michel, ,,,
+,Lycée kateb Yacine,,"36,7243404, 3,0846262",,,1,1,7h10,7h10,,Lot michel, ,,,
+,La provale 1,,"36,7207203, 3,0926597",,,1,1,7h11,7h11,,Lot michel, ,,,
+,La provale 2,,"36,7200750, 3,0933031",,,2,2,7h12,7h12,,Lot michel, ,,,
+,Poste,,"36,7205550, 3,0963914",,,1,1,7h13,7h13,,Lot michel, ,,,
+,La placette,,"36,7208495, 3,0999181",,,1,1,7h13,7h13,,Lot michel, ,,,
+,Centre de formation setram,,"36,7234359, 3,1009706",,,1,1,7h15,7h15,,Lot michel, ,,,
+,Stade,,"36,7292804, 3,0895296",,,1,1,7h17,7h17,,Lot michel, ,,,
+,Ens,,"36,7297678, 3,0751597",,,1,1,7h20,7h20,,Lot michel, ,,,
+,Arrêt said hamdine,,"36,7340214, 3,0365543",,,2,2,7h30,7h30,,Lot michel, ,,,
+,Ben aknoun,,"36,7518525, 3,0056308",,,2,2,7h40,7h40,,Lot michel, ,,,
+,Hôpital mouzaia,,"36,4679517, 2,6869089",,,2,2,6h00,6h00,,Blida, ,,,
+,Protection civile,,"36,4617824, 2,7479640",,,2,2,6h10,6h10,,Blida, ,,,
+,Mosquée Tarek Ibn ziad,,"36,4455312, 2,7493149",,,1,1,6h20,6h20,,Blida, ,,,
+,Rond point driouech,,"36,4636281, 2,7693325",,,1,1,6h30,6h30,G1,Blida, ,,,
+,Cité driouech,,"36,4561223, 2,7762033",,,2,2,6h35,6h35,,Blida, ,,,
+,Pompe à essence,,"36,4721890, 2,8157612",,,1,1,6h40,6h40,,Blida, ,,,
+,Poste bab errahba,,"36,4671940, 2,8311678",,,2,2,6h45,6h45,,Blida, ,,,
+,Hôpital,,"36,4852163, 2,8328419",,,1,1,6h50,6h50,,Blida, ,,,
+,Boulevard 20 mètres,,"36,4784343, 2,8191287",,,1,1,6h55,6h55,,Blida, ,,,
+,Rond point sidi Abdelkader,,"36,4814984, 2,8099599",,,2,2,6h57,6h57,,Blida, ,,,
+,Descente du pont,,"36,4889518, 2,8228074",,,2,2,7h00,7h00,G1,Blida, ,,,
+,Stade tchaker,,"36,4880793, 2,8495242",,,1,1,7h05,7h05,,Blida, ,,,
+,Ouled yaich poste,,"36,4934336, 2,8580174",,,3,3,7h10,7h10,,Blida, ,,,
+,Ben fares,,"36,4960847, 2,8507382",,,1,1,7h15,7h15,,Blida, ,,,
+,Rond point beni merad,,"36,5234075, 2,8620967",,,3,3,7h20,7h20,,Blida, ,,,
+,Gourouaou,,"36,5121094, 2,8175258",,,1,1,7h25,7h25,,Blida, ,,,
+,Cem youssef,,"36,5681317, 3,1698688",,,1,1,6h15,6h15,,Larbaa, ,,,
+,N8,,"36,5586548, 3,1593338",,,1,1,6h20,6h20,,Larbaa, ,,,
+,5 juillet,,"36,5526403, 3,1558935",,,2,2,6h25,6h25,,Larbaa, ,,,
+,Bendali,,"36,5756910, 3,1373014",,,1,1,6h35,6h35,,Larbaa, ,,,
+,Sidi moussa,,"36,6043625, 3,0894693",,,2,2,6h40,6h40,,Larbaa, ,,,
+,Dhimat,,"36,6197308, 3,1074364",,,1,1,6h50,6h50,,Larbaa, ,,,
+,Ben talha,,"36,6505897, 3,0860082",,,2,2,7h00,7h00,G2,Larbaa, ,,,
+,Baraki,,"36,6637518, 3,0933605",,,2,2,7h05,7h05,G2,Larbaa, ,,,
+,Baraki daira,,"36,6680981, 3,0957295",,,2,2,7h06,7h06,,Larbaa, ,,,
+,forsan,,"36,6747180, 3,0908124",,,4,4,7h10,7h10,M1,Larbaa, ,,,
+,baba ali station de bus,,"36,6722163, 3,0493961",,,3,3,7h15,7h15,,Larbaa, ,,,
+,Haouch lgazouz,,"36,6589629, 3,0081262",,,2,2,7h25,7h25,,Larbaa, ,,,
+,Golf  k luxe ptt,,"36,7438626759495, 3,0507917678712304",,,2,2,7h05,7h05,,Salembier, ,,,
+,Rond point presidence,,"36,7471711, 3,0508327",,,1,3,7h08,7h08,,Salembier, ,,,
+,Agence Nationale des Activités Minières,,"36,7476872, 3,0542425
+",,,1,1,7h11,7h11,,Salembier, ,,,
+,Saada clinique,,"36,7442992, 3,0598855
+",,,1,1,7h16,7h16,,Salembier, ,,,
+,Serir rond point,,"36,7420440, 3,0651812
+",,,0,3,7h23,7h23,,Salembier, ,,,
+,Comfort,,"36,7465309, 3,0643521
+",,,1,2,7h28,7h28,V1,Salembier, ,,,
+,Fleuriste Soumaa,,"36,5208888, 2,9155518
+",,,1,1,6h30,6h30,,Soumaa, ,,,
+,Chabi,,"36,5341262, 2,9151126
+",,,1,1,6h35,6h35,,Soumaa, ,,,
+,"Masjid Ali ben Abi talib
+",,"36,5770260, 2,9066489
+",,,2,2,6h50,6h50,,Soumaa, ,,,
+,Pharmacie Boufarik,,"36,5789828, 2,9067029
+",,,1,1,6h50,6h50,,Soumaa, ,,,
+,"Bâtiments Ouled sidi Mhamed , birtouta
+",,"36,6218020, 2,9578395
+",,,9,9,7h10,7h10,,Soumaa, ,,,
+,"Tassala el merdja , 932 logements
+",,"36,6414651, 2,9473246
+",,,2,2,7h20,7h20,,Soumaa, ,,,
+,"1310 logements, tassala elmerdja
+",,"36,6377632, 2,9466255
+",,,3,5,7h25,7h25,E2,Soumaa, ,,,
+,"Ben chaaban 1
+",,"36,6199565, 2,8727002
+",,,1,1,6h30,6h30,,Mahelma, ,,,
+,"Zaatria
+",,"36,6432616, 2,8678913
+",,,2,2,6h40,6h40,,Mahelma, ,,,
+,Quartier 23,,"36,6419767, 2,8854873
+",,,5,6,6h50,6h50,G1,Mahelma, ,,,
+,commissariat sidi bennour,,"36,6558948, 2,8782148
+",,,0,1,6h55,6h55,,Mahelma, ,,,
+,"Mahelma cimetière
+",,"36,6768974, 2,8817989
+",,,2,2,7h02,7h02,,Mahelma, ,,,
+,"Rond point 11 décembre
+",,"36,6756210, 2,8839088
+",,,1,3,7h03,7h03,,Mahelma, ,,,
+,"Douar mahelma
+",,"36,6734151, 2,8919172
+",,,2,5,7h10,7h10,P3,Mahelma, ,,,
+,"Terrain tenis
+",,"36,6835852, 2,8787214
+",,,1,1,7h15,7h15,G1,Mahelma, ,,,
+,"Station NAFTAl Belle Vue
+",,"36,6867134, 2,8753512
+",,,0,1,7h16,7h16,,Mahelma, ,,,
+,"Sidi Abdellah université
+",,"36,6941678, 2,8682390
+",,,1,1,7h18,7h18,,Mahelma, ,,,
+,"Arrêt de bus zeralda
+",,"36,7136394, 2,8452514
+",,,3,7,7h25,7h25,,Mahelma, ,,,
+,"Geni zeralda
+",,"36,7192870, 2,8497123
+",,,0,1,7h26,7h26,V1,Mahelma, ,,,
+,"La caf moul
+",,"36,7320464, 2,8619096
+",,,1,1,7h30,7h30,,Mahelma, ,,,
+,Entrée belouta,,"36,7294650, 2,8761961
+",,,1,1,7h32,7h32,,Mahelma, ,,,
+,Belouta ville,,"36,7280488, 2,8889943
+",,,3,3,7h35,7h35,,Mahelma, ,,,
+,Belouta haouch,,"36,7319959, 2,9005620
+",,,1,1,7h37,7h37,C1,Mahelma, ,,,
+,"Bouchaoui
+",,"36,7434513, 2,9146838
+",,,4,7,7h40,7h40,,Mahelma, ,,,
+,"Mosquée Abi moussa El achaari
+",,"36,6033322, 2,9967379
+",,,0,1,6h20,6h20,A1,Ouled chebel, ,,,
+,"El hajra mhamdia
+",,"36,6114895, 2,9964549
+",,,0,1,6h21,6h21,,Ouled chebel, ,,,
+,"Poste chaibia
+",,"36,6239684, 2,9902533
+",,,3,4,6h40,6h40,,Ouled chebel, ,,,
+,"Sidi Mhamed si lakhder
+",,"36,6246669, 2,9691544
+",,,1,1,6h45,6h45,,Ouled chebel,ce point est traversé par la ligne Soumaa , ,,
+,"Opgi birtouta
+",,"36,6441843, 2,9868808
+",,,1,1,6h50,6h50,,Ouled chebel, ,,,
+,"Cem soualmia
+",,"36,6458750, 2,9861204
+",,,2,2,6h50,6h50,,Ouled chebel, ,,,
+,"Terminus Etusa
+",,"36,6463823, 2,9874917
+",,,2,2,6h50,6h50,,Ouled chebel, ,,,
+,"APC birtouta
+",,"36,6452974, 2,9917148
+",,,0,1,7h05,7h05,,Ouled chebel, ,,,
+,"Centre de Formation
+",,"36,6429810, 2,9927522
+",,,1,1,7h05,7h05,,Ouled chebel, ,,,
+,"Placette birtouta
+",,"36,6449055, 2,9983127
+",,,3,3,7h10,7h10,,Ouled chebel, ,,,
+,"Agence de voyage addech
+",,"36,6460356, 3,0002258
+",,,1,1,7h15,7h15,M1,Ouled chebel, ,,,
+,"Pharmacie merad
+",,"36,6626500, 2,9902986
+",,,1,1,7h15,7h15,,Ouled chebel, ,,,
+,"douar Boukhris
+",,"36,6703065, 2,9836632
+",,,1,1,7h20,7h20,,Ouled chebel, ,,,
+,"Opgi khraicia
+",,"36,6718033, 2,9816619
+",,,0,1,7h20,7h20,,Ouled chebel, ,,,
+,"Cimetière khraicia
+",,"36,6724452, 2,9785364
+",,,2,2,7h21,7h21,,Ouled chebel, ,,,
+,"Arrêt de bus entré khraicia
+",,"36,6745472, 2,9774029
+",,,0,1,7h21,7h21,,Ouled chebel, ,,,
+,"Rond point khraicia
+",,"36,6778090, 2,9839666
+",,,2,2,7h30,7h30,,Ouled chebel, ,,,
+,"Arrêt bus Cherchell
+",,"36,6082333, 2,1865415
+",,,0,2,5h45,6h30,,Cherchell, ,,,
+,"Usine biscuits Cherchell
+",,"36,5980856, 2,2459269
+",,,1,1,6h00,6h00,,Cherchell, ,,,
+,"Douar boumaaza
+",,"36,5878938, 2,2736030
+",,,1,1,6h05,6h05,,Cherchell, ,,,
+,"Rond Point nadour
+",,"36,5671324, 2,3942994
+",,,5,5,6h15,6h15,"C2, G1",Cherchell, ,,,
+,"Rond Point chenwa
+",,"36,5874297, 2,4273713
+",,,1,1,6h18,6h18,,Cherchell, ,,,
+,"Cour de Tipaza
+",,"36,5924694, 2,4554678
+",,,0,2,6h20,6h20,,Cherchell, ,,,
+,"AADL tipaza
+",,"36,5886858, 2,4664243
+",,,3,3,6h26,6h26,,Cherchell, ,,,
+,"Jac ma
+",,"36,5899156, 2,5189205
+",,,1,1,6h32,6h32,,Cherchell, ,,,
+,"Restaurant alama
+",,"36,5923830, 2,5616739
+",,,1,1,6h35,6h35,,Cherchell, ,,,
+,"Mosquée El fath
+",,"36,6025392, 2,6086407
+",,,1,1,6h41,6h41,,Cherchell, ,,,
+,"Poste ain tagourait
+",,"36,6037550, 2,6116441
+",,,1,1,6h45,6h45,,Cherchell, ,,,
+,"Bouharoun
+",,"36,6212393, 2,6517814
+",,,2,2,6h50,6h50,,Cherchell, ,,,
+,"La fermette
+",,"36,6273536, 2,6633410
+",,,2,2,6h55,6h55,,Cherchell, ,,,
+,"Rond Point khemisti
+",,"36,6330090, 2,6738281
+",,,2,2,6h58,6h58,,Cherchell, ,,,
+,"Supérette aouane
+",,"36,6378714, 2,6819401
+",,,3,3,7h00,7h00,,Cherchell, ,,,
+,"Piscine bousmail
+",,"36,6401692, 2,6857401
+",,,2,2,7h03,7h03,,Cherchell, ,,,
+,"Feu rouge
+",,"36,6429500, 2,6903924
+",,,2,2,7h05,7h05,,Cherchell, ,,,
+,"Agence bus bousmail
+",,"36,6464321, 2,6961153
+",,,8,8,7h07,7h07,,Cherchell, ,,,
+,"Énergie solaire
+",,"36,6610909, 2,7205592
+",,,1,1,7h09,7h09,,Cherchell, ,,,
+,Fouka marine,,"36,6699612, 2,7401260
+",,,3,5,7h13,7h13,,Cherchell, ,,,
+,"Salle des fêtes Djebel El medda
+",,"36,6801040, 2,7688316
+",,,2,2,7h16,7h16,,Cherchell, ,,,
+,"Oued smar
+",,"36,7095919, 3,1656329
+",,,3,3,6h50,6h50,S1,Oued smar, ,,,
+,Ecole mousssaoui,,"36,7095432, 3,1626537
+",,,1,1,6h52,6h52,G1,Oued smar, ,,,
+,Lycée birouni,,"36,7101611, 3,1583018
+",,,1,1,6h55,6h55,,Oued smar, ,,,
+,"Arrêt pharmacie
+",,"36,7144336, 3,1519698
+",,,0,1,6h56,6h56,,Oued smar, ,,,
+,"Belfort
+",,"36,7210876, 3,1465091
+",,,1,1,7h00,7h00,,Oued smar, ,,,
+,"Rue des cordonniers
+",,"36,7191242, 3,1383542
+",,,1,1,7h05,7h05,,Oued smar, ,,,
+,Boucherie,,"36,7167930, 3,1368629
+",,,1,1,7h06,7h06,,Oued smar, ,,,
+,"Dépôt
+",,"36,7105192, 3,1317127
+",,,0,2,7h07,7h07,S2,Oued smar, ,,,
+,"commissariat
+",,"36,7065478, 3,1278108
+",,,2,2,7h08,7h08,,Oued smar, ,,,
+,"Hôpital zemirli
+",,"36,7043176, 3,1255332
+",,,2,2,7h10,7h10,,Oued smar, ,,,
+,"Ouled maamar
+",,"36,7723839, 3,2937885
+",,,1,2,6h15,6h15,N1,Hraoua, ,,,
+,"Station naftal ain kahla
+",,"36,7704164, 3,3151725
+",,,2,2,6h25,6h25,G2,Hraoua, ,,,
+,"Ain kahla
+",,"36,7652857, 3,3282764
+",,,0,1,6h30,6h30,,Hraoua, ,,,
+,"Rond Point ain kahla
+",,"36,7589439, 3,3339536
+",,,1,1,6h35,6h35,,Hraoua, ,,,
+,"Intersection DNC
+",,"36,7506855, 3,3423556
+",,,2,2,,,G2,Hraoua, ,,,
+,DNC 1,,"36,7478315, 3,3424623
+",,,1,1,,,G1,Hraoua, ,,,
+,DNC 2,,"36,7461959, 3,3425689
+",,,3,3,,,,Hraoua, ,,,
+,"Gare reghaia
+",,"36,7358251, 3,3425840
+",,,1,1,,,G1,Hraoua, ,,,
+,"Agence reghaia
+",,"36,7339953, 3,3439264
+",,,1,1,,,G1,Hraoua, ,,,
+,"Kerouch  1
+",,"36,7342044, 3,3680411
+",,,1,1,,,,Hraoua, ,,,
+,Kerouch  2,,"36,7326064, 3,3728678
+",,,2,4,,,,Hraoua, ,,,
+,"AADL 1104
+",,"36,6883261, 2,9651566
+",,,1,1,6h45,6h45,,Baba hassen, ,,,
+,"Stade AADL
+",,"36,6875698, 2,9678465
+",,,1,1,6h46,6h46,,Baba hassen, ,,,
+,"Mosquée El khayma
+",,"36,6884944, 2,9704449
+",,,3,4,6h50,6h50,S1,Baba hassen, ,,,
+,Baba hassen villa,,"36,6920967, 2,9725933
+",,,2,2,6h55,6h55,,Baba hassen, ,,,
+,Polyclinique,,"36,69298077154031, 2,982275653811517                ",,,1,1,6h56,6h56,G1,Baba hassen, ,,,
+,Fleuriste,,"36,6959201, 2,9740250
+",,,1,1,6h57,6h57,G1,Baba hassen, ,,,
+,"Lycée belkadi
+",,"36,6987261, 2,9775256
+",,,1,2,7h00,7h00,,Baba hassen, ,,,
+,"Rond point kartala
+",,"36,6967435, 2,9798299
+",,,1,1,7h01,7h01,,Baba hassen, ,,,
+,"Cité 3 Ouled Fayet
+",,"36,7291019, 2,9543825
+",,,2,3,7h10,7h10,M2,Baba hassen, ,,,
+,"Rue Bouderbala
+",,"36,7346432, 2,9528406
+",,,1,1,7h20,7h20,,Baba hassen, ,,,
+,"Quatre chemins
+",,"36,7371468, 2,9498053
+",,,2,2,7h21,7h21,M2,Baba hassen, ,,,
+,"Supérette Belkacemi
+",,"36,7403189, 2,9503800
+",,,3,3,7h25,7h25,G1,Baba hassen, ,,,
+,"Rond Point Ooredoo
+",,"36,7444996, 2,9500443
+",,,3,3,7h26,7h26,B1,Baba hassen, ,,,
+,Bessa,,"36,7452148, 2,9444975
+",,,2,2,7h30,7h30,,Baba hassen, ,,,
+,"Mojam3 khalifa
+",,"36,7533829, 2,9440758
+",,,1,1,7h35,7h35,,Baba hassen, ,,,
+,Cité hayat grossiste,,"36,7046687, 3,0894173
+",,,1,1,6h45,6h45,,Ain naadja, ,,,
+,"Arrêt de bus cité hayat
+",,"36,7047625, 3,0944615
+",,,1,1,6h50,6h50,C1,Ain naadja, ,,,
+,Semar,,"36,6955461, 3,0916311
+",,,1,1,6h55,6h55,C1,Ain naadja, ,,,
+,ain naadja escaliers,,"36,6941910, 3,0781493
+",,,1,1,7h00,7h00,,Ain naadja, ,,,
+,"Mosquée El Rahman
+",,"36,6958916, 3,0769313
+",,,3,3,7h02,7h02,G3,Ain naadja, ,,,
+,Chateau,,"36,7031446, 3,0711592
+",,,2,3,7h05,7h05,S3,Ain naadja, ,,,
+,"Sorecal ain naadja
+",,"36,7059562, 3,0643799
+",,,4,4,7h10,7h10,C1,Ain naadja, ,,,
+,"Zonka banque
+",,"36,7114274, 3,0620236
+",,,0,1,7h12,7h12,V1,Ain naadja, ,,,
+,Sidi mbarek,,"36,7148864, 3,0545959
+",,,1,1,7h13,7h13,,Ain naadja, ,,,
+,"Birkhadem
+",,"36,7160238, 3,0498812
+",,,4,5,7h15,7h15,G2,Ain naadja, ,,,
+,"Les vergers ( colital )
+",,"36,7236208, 3,0500582
+",,,2,2,7h20,7h20,S1,Ain naadja, ,,,
+,"La côte
+",,"36,7325113, 3,0495409
+",,,1,1,7h30,7h30,,Ain naadja, ,,,
+,La wilaya,,"36,7778772, 3,0604582
+",,,0,1,7h05,7h05,V1,Mauritania, ,,,
+,"Hôtel la famille
+",,"36,7896041, 3,0599690
+",,,4,4,7h10,7h10,,Mauritania, ,,,
+,"Okba
+",,"36,7891007, 3,0573404
+",,,0,1,7h13,7h13,V1,Mauritania, ,,,
+,"Serkaji
+",,"36,7857822, 3,0556295
+",,,3,3,7h17,7h17,G3,Mauritania, ,,,
+,"Les barreaux rouge
+",,"36,7845881, 3,0447692
+",,,2,3,7h21,7h21,S1,Mauritania, ,,,
+,climat de france,,"36,7854334, 3,0457395
+",,,2,2,7h23,7h23,G1,Mauritania, ,,,
+,Triolet,,"36,7880782, 3,0445801
+",,,7,7,7h25,7h25,G2,Mauritania, ,,,
+,Carnot,,"36,7728864, 3,0221857
+",,,2,2,7h30,7h30,G2,Mauritania, ,,,
+,chevally,,"36,7699155, 3,0119578
+",,,5,5,7h33,7h33,G1,Mauritania, ,,,
+,"AADL Douera
+",,"36,6773871, 2,9609455",,,4,4,7h00,7h00,,Douera, ,,,
+,"Stop Douera
+",,"36,6709366, 2,9620794",,,1,1,7h05,7h05,,Douera, ,,,
+,"Arrêt bus
+",,"36,6700198, 2,9549555",,,2,2,7h10,7h10,G1,Douera, ,,,
+,Stade communal,,"36,6685814, 2,9479790",,,2,2,7h,7h,G1,Douera, ,,,
+,Café djabou,,"36,6782279, 2,9414539",,,1,1,7h,7h,,Douera, ,,,
+,Rond Point AADL,,"36,6863204, 2,9434418",,,9,9,7h,7h,,Douera, ,,,
+,Aadl baba Hassen,,"36,6819525, 2,9441495",,,1,1,7h,7h,,Douera, ,,,
+,AADL baba Hassen 2,,"36,6825599, 2,9467191",,,2,2,7h,7h, ,Douera, ,,,
+,Sortie autoroute,,"36,6867933, 2,9507699",,,2,2,7h,7h,,Douera, ,,,
+,Issou,,"36,6859079, 2,9607916",,,3,3,,,,Douera, ,,,
+,Clinique médical,,"36,6925871, 2,9653873",,,2,3,,,,Douera, ,,,
+,arrêt taxi,,"36,6977234, 2,9664786",,,3,3,,,,Douera, ,,,
+,Résidence les lilas ,,"36,7127925, 2,9618900",,,1,1,,,,Douera, ,,,
+,AADL 1200 tonic,,"36,6420693, 2,7218769",,,2,2,,,,Fouka,,,,
+,Chaik 2,,"36,6425898, 2,7323016",,,5,5,,,,Fouka,,,,
+,Chaiba,,"36,6252392, 2,7211108",,,6,6,,,,Fouka,,,,
+,Rond point bou Ismaël,,"36,6394485, 2,6963831",,,1,1,,,,Fouka,,,,
+,Placette bou Ismaël,,"36,6608913, 2,7419985",,,5,5,,,,Fouka,,,,
+,Benhani,,"36,6572329, 2,7447166",,,3,3,,,,Fouka,,,,
+,Salle de sport sortie fouka,,"36,6518513, 2,7525583",,,2,2,,,,Fouka,,,,
+,Kerkouba,,"36,6456837, 2,7593014",,,5,5,,,,Fouka,,,,
+,Olympique,,"36,6422552, 2,7528939",,,1,1,,,,Fouka,,,,
+,"Station NAFTAL kolea",,"36,6384859, 2,7562474",,,1,1,,,,Fouka,,,,
+,Cnas,,"36,6380124, 2,7661414",,,2,2,,,,Fouka,,,,
+,Cimetière kolea,,"36,6431744, 2,7748200",,,8,8,,,,Fouka,,,,
+,Saint Maurice,,"36,6649093, 2,7842634",,,3,3,,,,Fouka,,,,
+,Arrêt de bus douaouda,,"36,6734625, 2,7877707",,,2,2,,,,Fouka,,,,
+,Sortie douaouda,,"36,6787673, 2,7982182 ",,,2,2,,,,Fouka,,,,
+,Naftal zeralda ,,"36,7016503, 2,8360733",,,6,6,,,,Fouka,,,,
+,Aissani,,"36,8022066, 2,9198283",,,7,7,,,M1,Ain beniane 1,,,,
+,Rond Point la Madrague,,"36,8013032, 2,9089314",,,3,3,,,,Ain beniane 1,,,,
+,École police,,"36,7966238, 2,9052173",,,6,7,,,G1,Ain beniane 1,,,,
+,Zigadi,,"36,7893719, 2,9028603",,,7,7,,,,Ain beniane 1,,,,
+,Plateau,,"36,7848066, 2,9491143",,,1,1,6h50,6h50,,Ain beniane 2,,,,
+,Grand rocher,,"36,8028093, 2,9406338",,,2,3,7h00,7h00,,Ain beniane 2,,,,
+,Anade,,"36,7987045, 2,9289384",,,3,3,7h05,7h05,,Ain beniane 2,,,,
+,Sonelgaz,,"36,7943471, 2,9342911
+",,,1,1,,,,Ain beniane 2,,,,
+,Pharmacie dey,,"36,7914613, 2,9392116",,,0,1,,,,Ain beniane 2,,,,
+,Hai chenawa,,"36,7883019, 2,9148906",,,3,5,,,,Ain beniane 2,,,,
+,Stade belle vue,,"36,7887699, 2,9128344",,,2,2,,,,Ain beniane 2,,,,
+,Maison de jeunes,,"36,7905895, 2,9111926",,,1,1,,,,Ain beniane 2,,,,
+,Association bir w ihssen,,"36,7943353, 2,9125712",,,2,2,,,,Ain beniane 2,,,,
+,Bâtiments ain benian,,"36,7972601, 2,9127412",,,3,3,,,,Ain beniane 2,,,,
+,"SARL djaouad",,"36,7989144, 2,9125860",,,2,2,,,,Ain beniane 2,,,,
+,Entrée cheraga,,"36,7708781, 2,9185673",,,2,4,,, ,Ain beniane 2,,,,
+,Sidi serhan,,"36,5043507, 2,9989471",,,1,1,,,,Bouinane,,,,
+,Boulangerie serine,,"36,5312584, 2,9614887",,,2,2,,,G1,Bouinane,,,,
+,AADL 2000,,"36,5325330, 2,9612486",,,1,1,,,,Bouinane,,,,
+,AADL 3000,,"36,5389002, 2,9598492",,,1,1,,,G1,Bouinane,,,,
+,Haouch lgereoun,,"36,5399355, 2,9670325",,,1,1,,,,Bouinane,,,,
+,Hai wouroud,,"36,5399435, 2,9680923",,,2,2,,,G1,Bouinane,,,,
+,3100 arrêt 1,,"36,5386282, 2,9810949",,,1,1,,,,Bouinane,,,,
+,Cem chetouan,,"36,5352862, 2,9823449",,,4,4,,,G1,Bouinane,,,,
+,Cem 2,,"36,5350728, 2,9812287",,,2,2,,,,Bouinane,,,,
+,Arrêt prochain,,"36,5342056, 2,9822899",,,3,3,,,G1,Bouinane,,,,
+,Déviation,,"36,5342636, 2,9870199",,,6,6,,,G2,Bouinane,,,,
+,4500,,"36,5387839, 2,9929835",,,4,4,,,,Bouinane,,,,
+,Tabainat,,"36,5346100, 3,0411999",,,3,3,,,G2,Bouinane,,,,
+,AADL Aslan,,"36,6803586, 2,8421662",,,5,5,7h00,7h00,,Sidi abdellah,,,,
+,Aslan rond Point 2,,"36,6783809, 2,8421015",,,6,6,7h01,7h01,C1,Sidi abdellah,,,,
+,Cem sidi Abdellah,,"36,6718237, 2,8431476",,,1,1,,,,Sidi abdellah,,,,
+,AADL 5000,,"36,6745744, 2,8480758",,,4,4,,,G1,Sidi abdellah,,,,
+,"5000 arrêt 2",,"36,6766320, 2,8498719",,,1,1,,,,Sidi abdellah,,,,
+,"Bâtiment N8",,"36,6813744, 2,8509558",,,2,2,,,,Sidi abdellah,,,,
+,Bâtiment R1,,"36,6809972, 2,8554284",,,3,3,,,,Sidi abdellah,,,,
+,Boucherie lina,,"36,6860044, 2,8542090",,,2,3,,,,Sidi abdellah,,,,
+,Boulevard Hocine ait ahmed,,"36,6873662, 2,8570981",,,1,1,,,,Sidi abdellah,,,,
+,Air de sport,,"36,6901739, 2,8601893",,,2,2,,,G1,Sidi abdellah,,,,
+,"New Town",,"36,6901736, 2,8556762",,,1,1,,,,Sidi abdellah,,,,
+,"CAAR sidi Abdellah",,"36,6902949, 2,8541725",,,1,1,,,,Sidi abdellah,,,,
+,"Poste sidi Abdellah",,"36,6909272, 2,8503416",,,6,6,,,"G1, C1, P1",Sidi abdellah,,,,
+,Hôpital des grands brûlés zeralda,,"36,6990339, 2,8441142",,,1,1,,,,Sidi abdellah,,,,
+,Cité police sidi menif,,"36,6939256, 2,8253458",,,2,3,7h00,7h00,"S1, G1",Zeralda,,,,
+,Sidi menif,,"36,6972701, 2,8240784",,,1,1,7h02,7h02,G1,Zeralda,,,,
+,Gare routière zeralda,,"36,7128185, 2,8337890",,,1,3,7h10,7h10,"S1, G1",Zeralda,,,,
+,Beridja,,"36,7429712, 2,8702443",,,1,3,7h17,7h17,S2,Zeralda,,,,
+,Hôtel riad,,"36,7573598, 2,8518799",,,1,1,7h20,7h20,,Zeralda,,,,
+,Centre de  vacances netcom,,"36,7561903, 2,8589106",,,1,1,7h22,7h22,,Zeralda,,,,
+,Hai Khaled ibn walid,,"36,7506361, 2,8720994",,,1,1,7h25,7h25,,Zeralda,,,,
+,Staoueli centre,,"36,7486130, 2,8852667",,,4,5,7h30,7h30,"M1, S1",Zeralda,,,,
+,Parc communal,,"36,7554013, 2,8888813",,,0,1,7h32,7h32,V1,Zeralda,,,,
+,Club des pins,,"36,7649186, 2,8958952",,,1,1,7h35,7h35,,Zeralda,,,,
+,AADL 3000 logement,,"36,6315561, 3,3427134",,,2,2,6h25,6h25,,Khmiss el khechna , ,,,
+,Rond point pompiers,,"36,6607315, 3,3308966",,,0,1,6h38,6h38,,Khmiss el khechna , ,,,
+,El djoumhouria,,"36,6753921, 3,1938816",,,1,1,6h55,6h55,,Khmiss el khechna , ,,,
+,Remadnia,,"36,6670436, 3,1790517",,,1,1,7h02,7h02,G1,Khmiss el khechna , ,,,
+,Hai El amir ,,"36,6745112, 3,1701665",,,1,1,7h05,7h05,,Khmiss el khechna , ,,,
+,Ouled El hadj,,"36,6603604, 3,1548173",,,3,4,7h13,7h13,"S1, C2",Khmiss el khechna , ,,,
+,Foyer,,"36,6639608, 3,1479817",,,3,3,7h17,7h17,,Khmiss el khechna , ,,,
+,AADL lotissement,,"36,6659278, 3,1446658",,,3,3,7h20,7h20,C1,Khmiss el khechna , ,,,
+,Rond Point eucalyptus,,"36,6526068, 3,1473131",,,0,1,7h30,7h30,V1,Khmiss el khechna , ,,,
+,Baba Ali autoroute,,"36,6489295, 3,0475202",,,1,2,7h40,7h40,C1,Khmiss el khechna , ,,,
+,Crèche la fonton,,"36,7865576, 3,0240143",,,1,1,07h10,07h10,,Bouzereah 1, ,,,
+,Dar El alia,,"36,7900845, 3,0189476",,,1,1,07h15,07h15,,Bouzereah 1, ,,,
+,Cimetière sidi Mhamed,,"36,7927694, 3,0117734",,,2,2,07h20,07h20,G2,Bouzereah 1, ,,,
+,Cfpa,,"36,7970268, 3,0083217",,,1,1,07h21,07h21,,Bouzereah 1, ,,,
+,Bouhamem,,"36,7968458, 3,0039145",,,2,2,07h25,07h25,,Bouzereah 1, ,,,
+,Bousmaha,,"36,7963934, 2,9940554",,,3,3,07h27,07h27,,Bouzereah 1, ,,,
+,Sidi Youssef,,"36,7968230, 2,9891677",,,1,1,07h28,07h28,,Bouzereah 1, ,,,
+,Mosquée tawba,,"36,7963432, 2,9867417",,,1,1,,,S1,Bouzereah 1, ,,,
+,Lavage,,"36,7936393, 2,9796764",,,1,1,,,,Bouzereah 1, ,,,
+,Logts el amel,,"36,7931966, 2,9784359",,,1,1,07h30,07h30,,Bouzereah 1, ,,,
+,Sidi Youssef 2,,"36,7838244, 2,9646543",,,5,5,07h32,07h32,,Bouzereah 1, ,,,
+,Beni messous entré,,"36,7893039, 2,9699658",,,1,1,,,G1,Bouzereah 1, ,,,
+,Mosquée rahma (inv),,"36,7847285, 2,9665191",,,1,1,,,,Bouzereah 1, ,,,
+,Beni messous,,"36,7831896, 2,9702685",,,1,1,07h35,07h35,,Bouzereah 1, ,,,
+,Geureoumi El barage,,"36,7802597, 2,9720549",,,1,1,07h40,07h40,,Bouzereah 1, ,,,
+,Celeste,,"36,7953990, 3,0371997",,,1,3,7h10,7h10,S1,Bouzereah 2, ,,,
+,Chemin sidi bennour,,"36,7955885, 3,0357825",,,1,1,7h11,7h11,G1,Bouzereah 2, ,,,
+,Chemin sidi bennour 2,,"36,7953982, 3,0345101",,,4,4,7h14,7h14,,Bouzereah 2, ,,,
+,Bouzareah,,"36,7899701, 3,0166862",,,3,3,7h16,7h16,P1,Bouzereah 2, ,,,
+,Société générale,,"36,7848437, 3,0131430",,,0,1,7h18,7h18,S1,Bouzereah 2, ,,,
+,Air de France,,"36,7798305, 3,0102797",,,7,7,7h20,7h20,G3,Bouzereah 2, ,,,
+,Rue Djamel Eddine El afghani,,"36,7794342, 3,0038971",,,2,3,7h30,7h30,M1,Bouzereah 2, ,,,
+,Thenia,,"36,7213120, 3,5705516",,,1,1,06h05,06h05,,Boumerdes,,,,
+,Daïra de Boumerdes,,"36,7565336, 3,4774075",,,6,6,06h20,06h20,G3,Boumerdes,,,,
+,Yssref,,"36,7575723, 3,4564726",,,1,2,06h25,06h25,S1,Boumerdes,,,,
+,Corso naftal,,"36,7552109, 3,4472511",,,1,1,06h27,06h27,,Boumerdes,,,,
+,Rond point berrahmoun,,"36,7442626, 3,4369337",,,2,2,7h30,7h30,,Boumerdes,,,,
+,Entrée boudouaou,,"36,7219745, 3,4193277",,,1,1,7h35,7h35,G1,Boumerdes,,,,
+,Benadjel,,"36,7201898, 3,3982438",,,5,5,7h37,7h37,G2,Boumerdes,,,,
+,Ouled hedadj,,"36,7234971, 3,3488835",,,3,3,7h40,7h40,,Boumerdes,,,,
+,Aissat,,"36,7203913, 3,3362107",,,1,1,7h43,7h43,,Boumerdes,,,,
+,Rond Point hammadi,,"36,6715790, 3,2885338",,,4,4,7h55,7h55,G1,Boumerdes,,,,
+,Didouche mourad,,"36,7660869, 3,0518469",,,6,6,,,E1,Alger centre,,,,
+,Bibliothèque Nationale,,"36,7640674, 3,0441684",,,1,1,,,,Alger centre,,,,
+,Ouagnouni,,"36,7750303, 3,0538988",,,3,3,,,,Alger centre,,,,
+,Scala,,"36,774395, 3,042318",,,1,1,,,,Alger centre,,,,
+,Place Kennedy,,"36,7685160, 3,0304352",,,3,3,,,,Alger centre,,,,
+,Fougeroux,,"36,7701457, 3,0045066",,,2,2,,,,Alger centre,,,,
+,Route Dely Brahim,,"36,7691716, 2,9873757",,,3,3,,,,Alger centre,,,,
+,"Batoire
+",,"36,7019473, 3,0284443
+",,,1,1,6h50,6h50,,Shaoula,,,,
+,"Rond point gendarmerie
+",,"36,7028470, 3,0277258
+",,,2,2,6h52,6h52,M1,Shaoula,,,,
+,"Centre de Formation
+",,"36,7007043, 3,0169980
+
+",,,1,1,6h54,6h54,C1,Shaoula,,,,
+,"Boujemaa temim
+",,"36,7004747, 3,0116185
+",,,4,4,6h56,6h56,,Shaoula,,,,
+,"Mosquée Al anssar
+",,"36,7105772, 3,0030780
+",,,2,2,7h00,7h00,,Shaoula,,,,
+,"Stade draria
+",,"36,7168387, 2,9997514
+",,,2,2,7h02,7h02,,Shaoula,,,,
+,"Pharmacie boudia
+",,"36,7146580, 2,9976059
+",,,1,1,7h05,7h05,,Shaoula,,,,
+,location number one,,"36,7077160, 2,9964875
+",,,5,5,7h07,7h07,,Shaoula,,,,
+,saraza,,"36,7093723, 2,9935836
+",,,1,1,7h13,7h13,S1,Shaoula,,,,
+,chemin des cretes,,"36,7112707, 2,9914208
+",,,3,3,7h15,7h15,,Shaoula,,,,
+,superette 1 2 3,,"36,7195631, 2,9937711
+",,,1,1,7h17,7h17,,Shaoula,,,,
+,Draria,,"36,7226058, 2,9922026
+",,,1,1,7h18,7h18,,Shaoula,,,,
+,Oued terfa,,"36,7245871, 2,9903543
+",,,2,2,7h20,7h20,,Shaoula,,,,
+,"La Pérouse
+",,"36,8048954, 3,2366156
+",,,9,9,6h15,6h15,G2,Tamenfoust,,,,
+,"Bordj El bahri
+",,"36,7906711, 3,2499146
+",,,1,1,6h22,6h22,,Tamenfoust,,,,
+,"AADL faizi 1
+",,"36,7846009, 3,2523665
+",,,1,1,6h27,6h27,G1,Tamenfoust,,,,
+,"Aadl faizi 2
+",,"36,7843587, 3,2544767
+",,,1,1,6h28,6h28,,Tamenfoust,,,,
+,"Cité diplomatique
+",,"36,7754605, 3,2653783
+",,,1,1,6h35,6h35,,Tamenfoust,,,,
+,"Dergana
+",,"36,7672177, 3,2632888
+",,,1,1,6h40,6h40,,Tamenfoust,,,,
+,"Dergana 2
+",,"36,7643059, 3,2611028
+",,,1,1,6h42,6h42,,Tamenfoust,,,,
+,"Rond point souachette
+",,"36,7524940, 3,2507344
+",,,2,2,6h45,6h45,G1,Tamenfoust,,,,
+,Stade 20 août,,"36,7443513, 3,0777121",,,1,1,7h00,7h00,,Ruisseau,,,,
+,Café boutawi,,"36,7432033, 3,0803682",,,2,2,7h01,7h01,G2,Ruisseau,,,,
+,CNAS ruisseau,,"36,7469430, 3,0871321",,,1,1,7h05,7h05,C1,Ruisseau,,,,
+,Jardin d'essai,,"36,7503207, 3,0776303",,,1,1,7h07,7h07,,Ruisseau,,,,
+,Sofitel,,"36,7517974, 3,0731742",,,0,1,,,,Ruisseau,,,,
+,Cnep,,"36,7551188, 3,0663952",,,2,3,,,,Ruisseau,,,,
+,Mustapha bacha,,"36,7616659, 3,0562813",,,4,5,,,"G2, C1",Ruisseau,,,,
+,CNR,,"36,7583816, 3,0429940",,,1,1,,,,Ruisseau,,,,
+,Bir Mourad Rais,,"36,7391730, 3,0499057",,,2,2,,,,Ruisseau,,,,
+,Sonatrach,,"36,7413304, 3,0448061",,,1,1,,,,Ruisseau,,,,
+,Place Perrine,,"36,7433621, 3,0423965",,,1,2,,,,Ruisseau,,,,
+,Place qods,,"36,7473294, 3,0403661",,,2,2,,,C1,Ruisseau,,,,
+,Parado,,"36,7479760, 3,0321028",,,1,2,,,,Ruisseau,,,,
+,Rond Point parado 2,,"36,7449201, 3,0285328",,,0,1,,,,Ruisseau,,,,
+,Maqaria,,"36,7333185, 3,1095225",,,3,3,7h00,7h00,G2,H-dey,,,,
+,Parnet,,"36,7344897, 3,1069720",,,0,1,7h05,7h05,S1,H-dey,,,,
+,Pharmacie benamadi,,"36,7345005, 3,1062445",,,2,2,7h10,7h10,G1,H-dey,,,,
+,H-dey 1,,"36,7362873, 3,1037141",,,2,2,7h12,7h12,,H-dey,,,,
+,Brigade gendarmerie,,"36,7415832, 3,0971451",,,1,2,7h13,7h13,,H-dey,,,,
+,Lycée aicha,,"36,7413750, 3,0942915",,,1,1,7h15,7h15,,H-dey,,,,
+,Les annaceur,,"36,7360111, 3,0759234",,,1,1,7h20,7h20,,H-dey,,,,
+,Rond point garidi,,"36,7332357, 3,0618147",,,2,5,7h30,7h30,S2,H-dey,,,,
+,Cevital,,"36,7326239, 3,0573602",,,1,1,7h31,7h31,,H-dey,,,,
+,El magharia,,"36,7320859, 3,1213238",,,1,1,6h50,6h50,,Bachdjerah,,,,
+,Diar jemaa,,"36,7231983, 3,1263848",,,3,3,7h06,7h06,,Bachdjerah,,,,
+,Bourouba,,"36,7233160, 3,1254601",,,2,2,7h07,7h07,,Bachdjerah,,,,
+,Metro bachjarah,,"36,7216590, 3,1180800",,,3,3,7h08,7h08,G1,Bachdjerah,,,,
+,Etusa Bachjarah,,"36,7212903, 3,1155467",,,6,6,7h10,7h10,G1,Bachdjerah,,,,
+,Mosquée Abi oubeida,,"36,7199949, 3,1138690",,,1,1,7h11,7h11,,Bachdjerah,,,,
+,LPP bachjarah,,"36,7140078, 3,1018969",,,1,1,7h12,7h12,,Bachdjerah,,,,
+,Fleuriste,,"36,7116206, 3,0937833",,,2,2,7h15,7h15,,Bachdjerah,,,,
+,Stade ain naadja,,"36,7097158, 3,0869567",,,2,2,7h18,7h18,,Bachdjerah,,,,
+,Golden training,,"36,7089462, 3,0853135",,,5,5,7h19,7h19,B1,Bachdjerah,,,,
+,Station ain naadja,,"36,7085855, 3,0820288",,,1,1,7h20,7h20,G1,Bachdjerah,,,,
+,AADL ain naadja,,"36,7122052, 3,0858892",,,2,2,7h22,7h22,,Bachdjerah,,,,
+,Hôpital ain naadja,,"36,7229011, 3,0646568",,,1,1,7h27,7h27,G1,Bachdjerah,,,,
+,Dar beida auto route,,"36,7137958, 3,2273653",,,1,1,,,G1,El hamiz,,,,
+,Pont dar El beida,,"36,7177931, 3,2251615",,,1,1,,,,El hamiz,,,,
+,Sntp,,"36,7281673, 3,2167002",,,1,1,,,,El hamiz,,,,
+,Mosalaha,,"36,7210441, 3,2005476",,,3,3,,,,El hamiz,,,,
+,Fatma nsoumer,,"36,7205854, 3,2147113",,,2,2,7h50,7h50,,El hamiz,,,,
+,Poste dar beida,,"36,7221760, 3,2105643",,,1,1,,,,El hamiz,,,,
+,Quatre chemins,,"36,7213322, 3,2053330",,,1,2,,,,El hamiz,,,,
+,Société générale usthb,,"36,7147166, 3,1891492",,,1,1,,,,El hamiz,,,,
+,Usthb jorf,,"36,7190258, 3,1810043",,,3,3,,,,El hamiz,,,,
+,Mayo,,"36,7931292, 3,0498322",,,1,1,6h55,6h55,G1,Bab el oued,,,,
+,Stade bouloughine,,"36,8017051, 3,0485361",,,1,1,,,,Bab el oued,,,,
+,Hôtel bouloughine,,"36,8023277, 3,0480663",,,1,1,,,,Bab el oued,,,,
+,La vigie,,"36,8120927, 3,0221820",,,2,2,,,,Bab el oued,,,,
+,Usine ciment,,"36,8164260, 3,0168823",,,1,1,,,C1,Bab el oued,,,,
+,Rond Point la pointe,,"36,8172082, 3,0094060",,,4,4,,,,Bab el oued,,,,
+,Les horizons,,"36,8157727, 3,0010211",,,2,2,,,,Bab el oued,,,,
+,Birouma,,"36,8125037, 2,9871634",,,1,1,7h20,7h20,,Bab el oued,,,,
+,Tribunal bainem,,"36,8138796, 2,9763588",,,2,2,7h25,7h25,,Bab el oued,,,,
+,Elhammamet,,"36,8138423, 2,9695075",,,4,4,7h30,7h30,,Bab el oued,,,,
+,Cinclo,,"36,8076244, 2,9460559",,,2,2,,,,Bab el oued,,,,
+,Cimetière,,"36,8066317, 2,9371456",,,1,1,7h40,7h40,,Bab el oued,,,,
+,Piscine ain El malha,,"36,6939557, 3,0727031",,,2,2,6h45,6h45,,Ain malha,,,,
+,Pharmacie,,"36,6926849, 3,0682208",,,1,1,,,,Ain malha,,,,
+,Passerelle birkhadem,,"36,7144091, 3,0449017",,,1,1,,,,Ain malha,,,,
+,Cimetière,,"36,7132988, 3,0420807",,,1,1,7h00,7h00,,Ain malha,,,,
+,Arrêt 2,,"36,7137280, 3,0409840",,,1,1,,,,Ain malha,,,,
+,Hôpital Teixrain,,"36,7230527, 3,0206907",,,1,1,7h10,7h10,,Ain malha,,,,
+,Sebala,,"36,7218127, 3,0155566",,,1,1,,,,Ain malha,,,,
+,Mosquée islah,,"36,7223096, 3,0151292",,,2,2,7h15,7h15,,Ain malha,,,,
+,Commecariat draria,,"36,7140428, 3,0005497",,,2,2,,,,Ain malha,,,,
+,Quartier 18,,"36,6774629, 2,9178558",,,3,3,6h50,6h50,,Souidania,,,,
+,Rahmania,,"36,6849537, 2,9073838",,,2,2,6h55,6h55,,Souidania,,,,
+,Souidania 1,,"36,7031389, 2,9082042",,,2,2,7h05,7h05,,Souidania,,,,
+,Souidania 2,,"36,7084810, 2,9121528",,,4,4,7h08,7h08,,Souidania,,,,
+,Souidania Lpp,,"36,7048525, 2,9184929",,,2,2,7h10,7h10,,Souidania,,,,
+,AADL Ouled Fayet,,"36,7048781, 2,9405007",,,1,1,7h15,7h15,,Souidania,,,,
+,Cité verte,,"36,7139764, 2,9503260",,,2,2,7h20,7h20,,Souidania,,,,
+,Arrêt bus cité verte,,"36,7161956, 2,9525023",,,1,1,7h21,7h21,,Souidania,,,,
+,Pharmacie du pont,,"36,7207082, 2,9546339",,,2,2,7h25,7h25,,Souidania,,,,
+,Cité semrouni,,"36,7356207, 2,9425466",,,2,2,7h27,7h27,,Souidania,,,,
+,Rond Point opéra,,"36,7340343, 2,9339870",,,3,3,7h30,7h30,,Souidania,,,,
+,Alger plage,,"36,7803037, 3,2369046",,,1,1,6h20,6h20,,Alger plage,,,,
+,Doum ,,"36,7711136, 3,2428319",,,2,2,6h30,6h30,G1,Alger plage,,,,
+,Sidi driss,,"36,7660152, 3,2380311",,,1,1,6h31,6h31,,Alger plage,,,,
+,Artisanat 1,,"36,7633245, 3,2346519",,,1,1,6h35,6h35,G1,Alger plage,,,,
+,Ben Merad,,"36,7563356, 3,2255267",,,1,1,6h40,6h40,,Alger plage,,,,
+,Sorecal,,"36,7373679, 3,1928151",,,1,1,6h48,6h48,,Alger plage,,,,
+,Marché sorecal,,"36,7351634, 3,1896833",,,2,2,6h40,6h40,G1,Alger plage,,,,
+,huit mai,,"36,7366460, 3,1852395",,,1,1,6h55,6h55,,Alger plage,,,,
+,Les bananiers,,"36,7316670, 3,1742123",,,5,5,7h02,7h02,G1,Alger plage,,,,

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9821e8f5ee7d6d7c234d07073037405f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9821e8f5ee7d6d7c234d07073037405f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9821e8f5ee7d6d7c234d07073037405f = L.map(
+                "map_9821e8f5ee7d6d7c234d07073037405f",
+                {
+                    center: [36.764062, 2.926582],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_20add6c2e39892a02aa19026901d629b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_20add6c2e39892a02aa19026901d629b.addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var marker_89e85a15038733fb495dc7b38ade9aa2 = L.marker(
+                [36.764062, 2.926582],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_e4d76da7279a4f2d73dd3aa02316522e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_89e85a15038733fb495dc7b38ade9aa2.setIcon(icon_e4d76da7279a4f2d73dd3aa02316522e);
+        
+    
+            marker_89e85a15038733fb495dc7b38ade9aa2.bindTooltip(
+                `<div>
+                     Direction Générale Naftal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4caceb23a6c3161a836c67c60e43160e = L.marker(
+                [36.7422417, 2.9948409],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_903deb04f2b866815bfb16b10e0785e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4caceb23a6c3161a836c67c60e43160e.setIcon(icon_903deb04f2b866815bfb16b10e0785e1);
+        
+    
+            marker_4caceb23a6c3161a836c67c60e43160e.bindTooltip(
+                `<div>
+                     Oued romane fleuriste
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61a662b730b847805ed368e4e253710c = L.marker(
+                [36.7461768, 2.9978604],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_4edfa86968391f2b2f0e3c885202bd5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61a662b730b847805ed368e4e253710c.setIcon(icon_4edfa86968391f2b2f0e3c885202bd5d);
+        
+    
+            marker_61a662b730b847805ed368e4e253710c.bindTooltip(
+                `<div>
+                     Arrêt de bus sahraoui
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_788d7e9ffdd46d65c55e55db9b4e4895 = L.marker(
+                [36.7507444, 2.9930777],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_cbde6d165f8ba1da6ef825291d1291aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_788d7e9ffdd46d65c55e55db9b4e4895.setIcon(icon_cbde6d165f8ba1da6ef825291d1291aa);
+        
+    
+            marker_788d7e9ffdd46d65c55e55db9b4e4895.bindTooltip(
+                `<div>
+                     Rond point ain allah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d6a0098cf9c3031626241eabcd379fb = L.marker(
+                [36.7542342, 2.9808777],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_8dbd2fae04a34c95fabe08d5ad956456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d6a0098cf9c3031626241eabcd379fb.setIcon(icon_8dbd2fae04a34c95fabe08d5ad956456);
+        
+    
+            marker_0d6a0098cf9c3031626241eabcd379fb.bindTooltip(
+                `<div>
+                     Bois des cars
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5079e23e4a459e96af03fd35cbd542c = L.marker(
+                [36.7541839, 2.9728183],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_c3886232bb5e51cf5cb459fc4fe76c70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5079e23e4a459e96af03fd35cbd542c.setIcon(icon_c3886232bb5e51cf5cb459fc4fe76c70);
+        
+    
+            marker_d5079e23e4a459e96af03fd35cbd542c.bindTooltip(
+                `<div>
+                     Intersection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62cc55632027456faedb588ae6a103dc = L.marker(
+                [36.7591638, 2.9632784],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_2992782d211b707ac53688adc28d44ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62cc55632027456faedb588ae6a103dc.setIcon(icon_2992782d211b707ac53688adc28d44ed);
+        
+    
+            marker_62cc55632027456faedb588ae6a103dc.bindTooltip(
+                `<div>
+                     Quds
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da8ec2ce76e8481031676f099c14875e = L.marker(
+                [36.7586221, 2.9597311],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_25ad4629492f20646c9ce95bb63beb92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_da8ec2ce76e8481031676f099c14875e.setIcon(icon_25ad4629492f20646c9ce95bb63beb92);
+        
+    
+            marker_da8ec2ce76e8481031676f099c14875e.bindTooltip(
+                `<div>
+                     Tribunal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a6ffa593a17ca015e83ed418d9f8565 = L.marker(
+                [36.7572202, 2.9535031],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_2ca3602981f6cfdf8be2058633734441 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a6ffa593a17ca015e83ed418d9f8565.setIcon(icon_2ca3602981f6cfdf8be2058633734441);
+        
+    
+            marker_5a6ffa593a17ca015e83ed418d9f8565.bindTooltip(
+                `<div>
+                     Ammara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4e01e0217622cbd1f0fed97b1634c03 = L.marker(
+                [36.7616388, 2.9524634],
+                {}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+    
+            var icon_bed2018546ce422ee2254231ca19b09b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e4e01e0217622cbd1f0fed97b1634c03.setIcon(icon_bed2018546ce422ee2254231ca19b09b);
+        
+    
+            marker_e4e01e0217622cbd1f0fed97b1634c03.bindTooltip(
+                `<div>
+                     CFPA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0892b2d9815e74b3ad25e88e99829cae = L.polyline(
+                [[36.74224, 2.99479], [36.74226, 2.99479], [36.74238, 2.99483], [36.74259, 2.99496], [36.7426, 2.99497], [36.74265, 2.99503], [36.74273, 2.99503], [36.74274, 2.99501], [36.7429, 2.99509], [36.74296, 2.99512], [36.74352, 2.99559], [36.7444, 2.9963], [36.74457, 2.99647], [36.74465, 2.99651], [36.74467, 2.99654], [36.74512, 2.99712], [36.74521, 2.99729], [36.74531, 2.99757], [36.74532, 2.9976], [36.74537, 2.99765], [36.7454, 2.99765], [36.74561, 2.9979], [36.74572, 2.99797], [36.74585, 2.998], [36.74602, 2.99797], [36.74615, 2.99786], [36.74616, 2.99784], [36.7463, 2.99765], [36.74661, 2.99714], [36.74667, 2.99698], [36.74684, 2.99645], [36.74694, 2.99613], [36.74701, 2.996], [36.74741, 2.99546], [36.74751, 2.99528], [36.74756, 2.99526], [36.74762, 2.99517], [36.74775, 2.99499], [36.74861, 2.99387], [36.74871, 2.99376], [36.7489, 2.9936], [36.74939, 2.99331], [36.74969, 2.99328], [36.75009, 2.99331], [36.75036, 2.99338], [36.75039, 2.99343], [36.75048, 2.99348], [36.75053, 2.99347], [36.75061, 2.99336], [36.75068, 2.99318], [36.7507, 2.99307], [36.75073, 2.99288], [36.75092, 2.99201], [36.75104, 2.99178], [36.75111, 2.99169], [36.75125, 2.99155], [36.75163, 2.99129], [36.75171, 2.99121], [36.75185, 2.99103], [36.75196, 2.99081], [36.75197, 2.99071], [36.75196, 2.99064], [36.75232, 2.98946], [36.75239, 2.98926], [36.75248, 2.9891], [36.7526, 2.98896], [36.75317, 2.98854], [36.75359, 2.98827], [36.75382, 2.98804], [36.75394, 2.98786], [36.75404, 2.98763], [36.75407, 2.98742], [36.75408, 2.98626], [36.75423, 2.98472], [36.75426, 2.98435], [36.75425, 2.98389], [36.75422, 2.98333], [36.7542, 2.98274], [36.75416, 2.98224], [36.75412, 2.98178], [36.75414, 2.98174], [36.75417, 2.98165], [36.75416, 2.98154], [36.75411, 2.98146], [36.75406, 2.98143], [36.75399, 2.98142], [36.75393, 2.98144], [36.75388, 2.98148], [36.75392, 2.98131], [36.75394, 2.98127], [36.75407, 2.9811], [36.75418, 2.98092], [36.7542, 2.98086], [36.75421, 2.98084], [36.75422, 2.98067], [36.75397, 2.97839], [36.7539, 2.97777], [36.75373, 2.97615], [36.75372, 2.97583], [36.75374, 2.97553], [36.75379, 2.97526], [36.75391, 2.97458], [36.75402, 2.97381], [36.75416, 2.97288], [36.75417, 2.97282], [36.75421, 2.97254], [36.75427, 2.97206], [36.75432, 2.97179], [36.75436, 2.97158], [36.75444, 2.97134], [36.75468, 2.97079], [36.75482, 2.97045], [36.75496, 2.97015], [36.75512, 2.96973], [36.75529, 2.96938], [36.75562, 2.96869], [36.75567, 2.96856], [36.7558, 2.96824], [36.75611, 2.96746], [36.75641, 2.96675], [36.75644, 2.96668], [36.75678, 2.96596], [36.75685, 2.9658], [36.75697, 2.96552], [36.75707, 2.96531], [36.75713, 2.96522], [36.75738, 2.96484], [36.75748, 2.96471], [36.7577, 2.96448], [36.75781, 2.96439], [36.75818, 2.96412], [36.75858, 2.96384], [36.75881, 2.96369], [36.75899, 2.96359], [36.75913, 2.96351], [36.75917, 2.9635], [36.7592, 2.96344], [36.7592, 2.96338], [36.75917, 2.96334], [36.75915, 2.96333], [36.75913, 2.9633], [36.75904, 2.96314], [36.75894, 2.96283], [36.75891, 2.96267], [36.75878, 2.96189], [36.75863, 2.96117], [36.75858, 2.96092], [36.75844, 2.96025], [36.7585, 2.95996], [36.75852, 2.95996], [36.75857, 2.9599], [36.75859, 2.95982], [36.75857, 2.95976], [36.75856, 2.95973], [36.75849, 2.95969], [36.75831, 2.95941], [36.75827, 2.95927], [36.75816, 2.95877], [36.75807, 2.95834], [36.75795, 2.95769], [36.75782, 2.95695], [36.75778, 2.95671], [36.75775, 2.95653], [36.75754, 2.95537], [36.75723, 2.95398], [36.75717, 2.95363], [36.75717, 2.9535], [36.75718, 2.95326], [36.75739, 2.9533], [36.75754, 2.95329], [36.75774, 2.95321], [36.75856, 2.9529], [36.75921, 2.95277], [36.75959, 2.9527], [36.75978, 2.9527], [36.75986, 2.95265], [36.75996, 2.95261], [36.76021, 2.95255], [36.76151, 2.95241], [36.76163, 2.9524], [36.76164, 2.9524], [36.76163, 2.9524], [36.76151, 2.95241], [36.76021, 2.95255], [36.75996, 2.95261], [36.75986, 2.95265], [36.75978, 2.9527], [36.75959, 2.9527], [36.75921, 2.95277], [36.75856, 2.9529], [36.75774, 2.95321], [36.75754, 2.95329], [36.75739, 2.9533], [36.75718, 2.95326], [36.75701, 2.95304], [36.75629, 2.95211], [36.75604, 2.95183], [36.75582, 2.95145], [36.75578, 2.95136], [36.75568, 2.95121], [36.7555, 2.95099], [36.75502, 2.9503], [36.75481, 2.94998], [36.75447, 2.94939], [36.75429, 2.94902], [36.75414, 2.94865], [36.75392, 2.94792], [36.75386, 2.94761], [36.75374, 2.94692], [36.75354, 2.94531], [36.75341, 2.94462], [36.75337, 2.94436], [36.75335, 2.94408], [36.75336, 2.94404], [36.75336, 2.94395], [36.75342, 2.94375], [36.75345, 2.94348], [36.75346, 2.94124], [36.75348, 2.9407], [36.75352, 2.94041], [36.75362, 2.93994], [36.75383, 2.93936], [36.75388, 2.93928], [36.75388, 2.93918], [36.75402, 2.93887], [36.75427, 2.93842], [36.75448, 2.93812], [36.756, 2.93623], [36.75621, 2.93598], [36.75659, 2.93553], [36.75769, 2.93432], [36.75887, 2.93299], [36.75919, 2.93262], [36.76015, 2.93142], [36.76202, 2.9291], [36.76276, 2.92825], [36.76282, 2.92817], [36.7639, 2.92687], [36.76409, 2.92664], [36.76412, 2.92661], [36.76413, 2.92657], [36.7641, 2.9265], [36.76408, 2.92649], [36.76404, 2.9265], [36.76402, 2.92653], [36.76401, 2.92657], [36.76402, 2.92661], [36.76404, 2.92663]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9821e8f5ee7d6d7c234d07073037405f);
+        
+</script>
+</html>
