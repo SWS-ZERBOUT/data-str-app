@@ -88,7 +88,7 @@ def data_res():
     # title
     st.title('Récolte de données')
     # get naftal image from github
-    image_url = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/images/naftal.png?token=GHSAT0AAAAAACNFGRWVXYSE3CNIOWRTUCXWZVCOURQ'
+    image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/images/naftal.png'
     image_data = fetch_image_from_github(image_url, token)
     column1, column2, column3= st.columns(3)
     with column1:
@@ -98,7 +98,7 @@ def data_res():
     with column3:
         st.write(' ')
      # get routimize image from github
-    image_url = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/images/routimize.png?token=GHSAT0AAAAAACNFGRWVCXPQRWCTPIDWCAXGZVCOU5Q'
+    image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/images/routimize.png'
     image_data = fetch_image_from_github(image_url, token)
     column1, column2, column3= st.columns(3)
     with column1:
@@ -141,7 +141,7 @@ def data_res():
     # df["Localisation Coordonnées GPS"] = df["Localisation Coordonnées GPS"].apply(convert_to_tuple)
     # # Split the values in the "Population" column by a comma and convert them into lists
     # df['Population'] = df['Population'].apply(lambda x: [item.strip() for item in x.split(',')] if pd.notna(x) else [])
-    urldf = "https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/data/old_df.csv?token=GHSAT0AAAAAACNFGRWVMKJ3Z66RLEF3AUOEZVOOQKQ"
+    urldf = "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/data/old_df.csv"
     # Read the CSV file into a DataFrame
     df = read_github_csv(urldf, token,  cols = range(1, 10))
     df['Population'] = df['Population'].apply(lambda x: [item.strip() for item in x.split(',')] if pd.notna(x) else [])
@@ -212,14 +212,14 @@ def data_res():
                             1 - sum(population[key][2] for key in population.keys())]
     # pie chart
     if pop_number == n_max_sum:
-        image_url = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/charts/pie%20chart%20max.png?token=GHSAT0AAAAAACNFGRWVVJ3GL5WISQ2JWCM6ZVCOVUA'
+        image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/charts/pie%20chart%20max.png'
         image_data = fetch_image_from_github(image_url, token)
     else:
-        image_url = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/charts/pie%20chart%20min.png?token=GHSAT0AAAAAACNFGRWVUW35GMGUIVYMIIOAZVCOWBQ'
+        image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/charts/pie%20chart%20min.png'
         image_data = fetch_image_from_github(image_url, token)
     st.image(image_data)
     # bar chart
-    image_url = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/charts/bar%20chart.png?token=GHSAT0AAAAAACNFGRWUP7556VQCCMSFJFXYZVCOWSA'
+    image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/charts/bar%20chart.png'
     image_data = fetch_image_from_github(image_url, token)
     st.image(image_data)
     st.markdown("\n")
@@ -228,7 +228,7 @@ def data_res():
     st.markdown('### Bus')
     st.markdown("La flotte actuelle est représentée par le tableau suivant:")
     # URL of the CSV file
-    urlbus = "https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/data/Donn%C3%A9es%20collect%C3%A9es%20-%20Types%20de%20v%C3%A9hicules.csv?token=GHSAT0AAAAAACNFGRWUFKKXLLJOJUWHJTM6ZVCOT4Q"
+    urlbus = "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/data/Donn%C3%A9es%20collect%C3%A9es%20-%20Types%20de%20v%C3%A9hicules.csv"
     # Read the CSV file into a DataFrame
     dfbus = read_github_csv(urlbus, token,  cols=range(1, 5))
     # Set the first row as the column headers
@@ -289,7 +289,7 @@ def data_res():
     st.markdown(f"Le taux de saturation moyen (avec n min) {round(df_sorted['Taux Min %'].mean(), 2)}%")
     st.markdown("\n")
     st.markdown("On peut aussi visualiser la variation du taux de saturation avec le diagramme suivant:")
-    image_url = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/charts/taux%20de%20saturation.png?token=GHSAT0AAAAAACNFGRWVAEXQY2M5375D7NVAZVCLWZA'
+    image_url = 'https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/charts/taux%20de%20saturation.png'
     image_data = fetch_image_from_github(image_url, token)
     st.image(image_data)
     st.markdown("La couleur rouge indique le taux de saturation basé sur une population totale de **896**, tandis que la couleur bleue représente le taux de saturation pour une population de **801**.")
@@ -302,7 +302,7 @@ def maps():
     # Loading old routes data
     # urlmaps = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/old%20maps/alldatamodified%20-%20Sheet1.csv?token=GHSAT0AAAAAACNFGRWUTQVSQK6OEGTYPVYGZVCW7HA'
     # df = read_github_csv(urlmaps, token, cols= range(0,4))
-    urldf = "https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/data/old_df.csv?token=GHSAT0AAAAAACNFGRWVMKJ3Z66RLEF3AUOEZVOOQKQ"
+    urldf = "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/data/old_df.csv"
     # Read the CSV file into a DataFrame
     df = read_github_csv(urldf, token,  cols = range(1, 10))
     df['Population'] = df['Population'].apply(lambda x: [item.strip() for item in x.split(',')] if pd.notna(x) else [])
@@ -320,43 +320,43 @@ def maps():
         old_routes[key].drop(['Ligne'], axis=1, inplace=True)
 
     # Loading each line map
-    old_maps = {'Oued romane' :"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/old%20maps/Oued%20romane.html?token=GHSAT0AAAAAACNFGRWVG6NO3JICS44BTY72ZVCOPFA"
-                , 'Lot michel' :"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/old%20maps/Lot%20michel.html?token=GHSAT0AAAAAACNFGRWVCY5QFCFFSGUM55HCZVCOPXA"
-                , 'Blida' :"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/old%20maps/Blida.html?token=GHSAT0AAAAAACNFGRWUWIMYFUCPD2AWV3HSZVCOQFA"
-                , 'Larbaa':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/old%20maps/Larbaa.html?token=GHSAT0AAAAAACNFGRWUFHMBAHGKGUKFS2BIZVCOQYQ"
-                , 'Salembier':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/old%20maps/Salembier.html?token=GHSAT0AAAAAACNFGRWU3NNON7G2I3H6HGOOZVCORHA"
-                ,'Soumaa':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Soumaa.html?token=GHSAT0AAAAAACVE2G5MVCBZWCU7T7Z7ZBTIZVCGLMQ"
-                , 'Mahelma':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Mahelma.html?token=GHSAT0AAAAAACVE2G5NP5VTRIGQ2LDZIF5UZVCGMUA"
-                , 'Ouled chebel':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Ouled%20chebel.html?token=GHSAT0AAAAAACVE2G5MNQLUAN7CHVZSHC3WZVCGLZA"
-                , 'Cherchell':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Cherchell.html?token=GHSAT0AAAAAACVE2G5MYUBSXFVD7NNIO5V2ZVCGFJA"
-                , 'Oued smar':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Oued%20smar.html?token=GHSAT0AAAAAACVE2G5MVF56IUH7ZRONVX62ZVCGICA"
-                ,'Hraoua':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Hraoua.html?token=GHSAT0AAAAAACVE2G5MUR3XCNNSYNVHXD2IZVCGIQA"
-                , 'Baba hassen':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Baba%20hassen.html?token=GHSAT0AAAAAACVE2G5NT5JIM2FRDZWZJY3UZVCGCRA"
-                , 'Ain naadja':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Ain%20naadja.html?token=GHSAT0AAAAAACVE2G5NHYLPRN7DKG5BOULUZVCGA4Q"
-                , 'Mauritania':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Mauritania.html?token=GHSAT0AAAAAACVE2G5NYIEBZ2AVNTXYNKZIZVCGHXQ"
-                , 'Douera':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Douera.html?token=GHSAT0AAAAAACVE2G5MIY7BZBRLSHYPWFAIZVCGFXA"
-                ,'Fouka':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Fouka.html?token=GHSAT0AAAAAACVE2G5M2AVGXJ4L4J5EDU3SZVCGHJQ"
-                , 'Ain beniane 1':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Ain%20beniane%201.html?token=GHSAT0AAAAAACVE2G5NGMNVLOAIJC2K2WZEZVCF7IQ"
-                , 'Ain beniane 2':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Ain%20beniane%202.html?token=GHSAT0AAAAAACVE2G5MBRGU6VAFKJHH46FMZVCGAFA"
-                , 'Bouinane':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Bouinane.html?token=GHSAT0AAAAAACVE2G5NBITJR7XFFF5AK4HIZVCGDZQ"
-                ,'Sidi abdellah':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Sidi%20abdellah.html?token=GHSAT0AAAAAACVE2G5NCMPPDGXQZY56VKPCZVCGJZA"
-                , 'Zeralda':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Zeralda.html?token=GHSAT0AAAAAACVE2G5NPJKIFEFV3SXZSUOEZVCGKJA"
-                , 'Khmiss el khechna ':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Khmiss%20el%20khechna%20.html?token=GHSAT0AAAAAACVE2G5NGIU2U4AZYQFJYUMKZVCGKTQ"
-                , 'Bouzereah 1':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Bouzereah%201.html?token=GHSAT0AAAAAACVE2G5NI53WR2U3UTHWIYBUZVCGERA"
-                ,'Bouzereah 2':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Bouzereah%202.html?token=GHSAT0AAAAAACVE2G5MCYETMRRUSTKGV6JMZVCGE4Q"
-                , 'Boumerdes':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Boumerdes.html?token=GHSAT0AAAAAACVE2G5NEP4GCO6HJUDFLBTYZVCGEEQ"
-                , 'Alger centre':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Alger%20centre.html?token=GHSAT0AAAAAACVE2G5M2FLCU6HBZRXGDQYYZVCGBPQ"
-                , 'Shaoula':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Shaoula.html?token=GHSAT0AAAAAACVE2G5NKYDWDSFML7FSGBUWZVCGNCA"
-                ,'Tamenfoust':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Tamenfoust.html?token=GHSAT0AAAAAACVE2G5NOF3XM74ONLXTDVTSZVCGOHA"
-                , 'Ruisseau':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Ruisseau.html?token=GHSAT0AAAAAACVE2G5MVXBNL4LR5AA3UMLWZVCGOSA"
-                , 'H-dey':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/H-dey.html?token=GHSAT0AAAAAACVE2G5NZMQH6EJPAE5IYPSCZVCGO3Q"
-                , 'Bachdjerah':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Bachdjerah.html?token=GHSAT0AAAAAACVE2G5MG3PSCYU6HWZGWPIQZVCGC5Q"
-                , 'El hamiz':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/El%20hamiz.html?token=GHSAT0AAAAAACVE2G5MNUDJ4AN7TESDQNH2ZVCGGFA"
-                ,'Bab el oued':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Bab%20el%20oued.html?token=GHSAT0AAAAAACVE2G5NYZMR7BIQ3HEWPF4GZVCGCGQ"
-                , 'Ain malha':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Ain%20malha.html?token=GHSAT0AAAAAACVE2G5NYXVYJGO4AWQAWVQAZVCGASA"
-                , 'Souidania':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Souidania.html?token=GHSAT0AAAAAACVE2G5NBYDN3O6FUW675AKQZVCGGXA"
-                , 'Alger plage':"https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees/main/old%20maps/Alger%20plage.html?token=GHSAT0AAAAAACVE2G5NZLE6XBRCRQ5QLQHMZVCGB3A"
-                , "Anciens et nouveaux points de ramassage": "https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/oldvsnew.html?token=GHSAT0AAAAAACNFGRWVSEWHT34BHGUPNAU6ZVCYDKA"
+    old_maps = {'Oued romane' :"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Oued%20romane.html"
+                , 'Lot michel' :"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Lot%20michel.html"
+                , 'Blida' :"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Blida.html"
+                , 'Larbaa':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Larbaa.html"
+                , 'Salembier':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Salembier.html"
+                ,'Soumaa':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Soumaa.html"
+                , 'Mahelma':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Mahelma.html"
+                , 'Ouled chebel':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Ouled%20chebel.html"
+                , 'Cherchell':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Cherchell.html"
+                , 'Oued smar':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Oued%20smar.html"
+                ,'Hraoua':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Hraoua.html"
+                , 'Baba hassen':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Baba%20hassen.html"
+                , 'Ain naadja':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Ain%20naadja.html"
+                , 'Mauritania':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Mauritania.html"
+                , 'Douera':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Douera.html"
+                ,'Fouka':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Fouka.html"
+                , 'Ain beniane 1':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Ain%20beniane%201.html"
+                , 'Ain beniane 2':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Ain%20beniane%202.html"
+                , 'Bouinane':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bouinane.html"
+                ,'Sidi abdellah':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Sidi%20abdellah.html"
+                , 'Zeralda':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Zeralda.html
+                , 'Khmiss el khechna ':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Khmiss%20el%20khechna%20.html"
+                , 'Bouzereah 1':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bouzereah%201.html"
+                ,'Bouzereah 2':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bouzereah%202.html"
+                , 'Boumerdes':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Boumerdes.html"
+                , 'Alger centre':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Alger%20centre.html"
+                , 'Shaoula':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Shaoula.html"
+                ,'Tamenfoust':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Tamenfoust.html"
+                , 'Ruisseau':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Ruisseau.html"
+                , 'H-dey':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/H-dey.html"
+                , 'Bachdjerah':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bachdjerah.html"
+                , 'El hamiz':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/El%20hamiz.html"
+                ,'Bab el oued':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Bab%20el%20oued.html"
+                , 'Ain malha':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Ain%20malha.html"
+                , 'Souidania':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Souidania.html"
+                , 'Alger plage':"https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/old%20maps/Alger%20plage.html"
+                , "Anciens et nouveaux points de ramassage": "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/oldvsnew.html"
     }
 
 
@@ -386,11 +386,11 @@ def maps():
 def requested_maps():
     st.title('Nouvelles Lignes')
     st.markdown("Les nouvelles lignes demandées par le responsable du transport")
-    urldf = "https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/refs/heads/main/data/requested_lines_info.csv?token=GHSAT0AAAAAAC25IUTPZ65KLHXJJKJSVWIGZ2CMXVQ"
+    urldf = "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/data/requested_lines_info.csv"
     infodf = read_github_csv(urldf, token,  cols = range(0, 3))
     infodf.rename(columns={"Unnamed: 0": "Line"}, inplace=True)
     # st.dataframe(infodf)
-    urldf = "https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/refs/heads/main/data/requested_lines.csv?token=GHSAT0AAAAAAC25IUTOGI3YHZXIES2VME3YZ2CMFVA"
+    urldf = "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/data/requested_lines.csv"
     df = read_github_csv(urldf, token,  cols = range(0, 5))
     df["Localisation Coordonnées GPS"] = df["Localisation Coordonnées GPS"].apply(lambda x: [float(coord) for coord in x.strip("[]").split(',')])
     lines = df['Ligne'].unique()
