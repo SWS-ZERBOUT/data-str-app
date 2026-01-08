@@ -7,7 +7,7 @@ import base64
 
 
 # personal access token
-token = "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"
+token = "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"
 headers = {'Authorization': f'token {token}'}
 
 # Function to fetch image from GitHub
