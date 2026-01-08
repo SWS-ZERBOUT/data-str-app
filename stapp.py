@@ -302,7 +302,7 @@ def maps():
     # Loading old routes data
     # urlmaps = 'https://raw.githubusercontent.com/malikbf5/naftal-recolte-donnees-data/main/old%20maps/alldatamodified%20-%20Sheet1.csv?token=GHSAT0AAAAAACNFGRWUTQVSQK6OEGTYPVYGZVCW7HA'
     # df = read_github_csv(urlmaps, token, cols= range(0,4))
-    urldf = "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/data/old_df.csv"
+    urldf = "https://github.com/SWS-ZERBOUT/data-str-app/blob/main/naftal-recolte-donnees-data-main/data/old_df.csv"
     # Read the CSV file into a DataFrame
     df = read_github_csv(urldf, token,  cols = range(1, 10))
     df['Population'] = df['Population'].apply(lambda x: [item.strip() for item in x.split(',')] if pd.notna(x) else [])
