@@ -141,7 +141,7 @@ def data_res():
     # df["Localisation Coordonnées GPS"] = df["Localisation Coordonnées GPS"].apply(convert_to_tuple)
     # # Split the values in the "Population" column by a comma and convert them into lists
     # df['Population'] = df['Population'].apply(lambda x: [item.strip() for item in x.split(',')] if pd.notna(x) else [])
-    urldf = "https://raw.githubusercontent.com/SWS-ZERBOUT/data-str-app/refs/heads/main/naftal-recolte-donnees-data-main/data/old_df.csv"
+    urldf = "https://github.com/SWS-ZERBOUT/data-str-app/blob/main/naftal-recolte-donnees-data-main/data/old_df.csv"
     # Read the CSV file into a DataFrame
     df = read_github_csv(urldf, token,  cols = range(1, 10))
     df['Population'] = df['Population'].apply(lambda x: [item.strip() for item in x.split(',')] if pd.notna(x) else [])
